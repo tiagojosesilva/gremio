@@ -5,14 +5,14 @@
             class="header-top d-flex justify-content-between align-items-lg-center navbar-expand-lg"
           >
             <div class="col menu-left">
-              <a class="active" href="index.html">Início</a>
-              <a href="category.html">Categorias</a>
-              <a href="archive.html">Galeria</a>
+              <a class="active" href="index.php">Início</a>
+              <a href="category.php">Categorias</a>
+              <a href="archive.php">Galeria</a>
             </div>
             <div class="col-5 text-lg-center mt-2 mt-lg-0">
               <span class="logo-outer">
                 <span class="logo-inner">
-                  <a href="index.html">
+                  <a href="index.php">
                     <h1>Campus do Amor</h1>
                   </a>
                 </span>
@@ -36,10 +36,10 @@
               >
                 <ul class="navbar-nav justify-content-center w-100">
                   <li class="nav-item hide-lg">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.php">Home</a>
                   </li>
                   <li class="nav-item hide-lg">
-                    <a class="nav-link" href="category.html">Category</a>
+                    <a class="nav-link" href="category.php">Category</a>
                   </li>
                   <!-- Dropdown -->
                   <!-- <li class="nav-item dropdown">
@@ -52,17 +52,17 @@
                       Pages
                     </a>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="elements.html">Elements</a>
+                      <a class="dropdown-item" href="elements.php">Elements</a>
                     </div>
                   </li> -->
                   <li class="nav-item">
-                    <a class="nav-link" href="elements.html">Login</a>
+                    <a class="nav-link" href="elements.php">Login</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="blog-single.html">Criar conta</a>
+                    <a class="nav-link" href="blog-single.php">Criar conta</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Sobre</a>
+                    <a class="nav-link" href="contact.php">Sobre</a>
                   </li>
                 </ul>
               </div>
