@@ -26,92 +26,86 @@
     <!--
 			CSS
 			============================================= -->
-    <link rel="stylesheet" href="css/linearicons.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
-    <link rel="stylesheet" href="css/themify-icons.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="../css/linearicons.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/magnific-popup.css" />
+    <link rel="stylesheet" href="../css/nice-select.css" />
+    <link rel="stylesheet" href="../css/owl.carousel.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="../css/themify-icons.css" />
+    <link rel="stylesheet" href="../css/main.css" />
   </head>
 
   <body>
     <!--================ Start Header Area =================-->
     <header class="header-area">
-      <div class="container">
-        <div class="header-wrap">
-          <div
-            class="header-top d-flex justify-content-between align-items-lg-center navbar-expand-lg"
-          >
-            <div class="col menu-left">
-              <a class="active" href="index.html">Home</a>
-              <a href="category.html">Category</a>
-              <a href="archive.html">Archive</a>
-            </div>
-            <div class="col-5 text-lg-center mt-2 mt-lg-0">
-              <span class="logo-outer">
-                <span class="logo-inner">
-                  <a href="index.html"
-                    ><img class="mx-auto" src="img/logo.png" alt=""
-                  /></a>
-                </span>
-              </span>
-            </div>
-            <nav class="col navbar navbar-expand-lg justify-content-end">
-              <!-- Toggler/collapsibe Button -->
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#collapsibleNavbar"
-              >
-                <span class="lnr lnr-menu"></span>
-              </button>
+    <div class="container">
+      <div class="header-wrap">
+        <div class="header-top d-flex justify-content-between align-items-lg-center navbar-expand-lg">
+          <div class="col menu-left">
+            <a class="active" href="../index.php">Home</a>
+            <a href="../archive.php">Galeria</a>
+            <div class="dropdown d-inline">
+              <a class="nav-link dropdown-toggle d-inline" href="#" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categorias
+              </a>
 
-              <!-- Navbar links -->
-              <div
-                class="collapse navbar-collapse menu-right"
-                id="collapsibleNavbar"
-              >
-                <ul class="navbar-nav justify-content-center w-100">
-                  <li class="nav-item hide-lg">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item hide-lg">
-                    <a class="nav-link" href="category.html">Category</a>
-                  </li>
-                  <!-- Dropdown -->
-                  <!-- <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbardrop"
-                      data-toggle="dropdown"
-                    >
-                      Pages
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="elements.html">Elements</a>
-                    </div>
-                  </li> -->
-                  <li class="nav-item">
-                    <a class="nav-link" href="elements.html">Elements</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="blog-single.html">Blog Detail</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
               </div>
-            </nav>
+            </div>
           </div>
+          <div class="col-5 text-lg-center mt-2 mt-lg-0">
+            <span class="logo-outer">
+              <span class="logo-inner">
+                <h1 class="logo-title">Campus do Amor</h1>
+              </span>
+            </span>
+          </div>
+          <nav class="col navbar navbar-expand-lg justify-content-end">
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="lnr lnr-menu"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse menu-right" id="collapsibleNavbar">
+              <ul class="navbar-nav justify-content-center w-100">
+                <li class="nav-item hide-lg">
+                  <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown hide-lg">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Categorias
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="elements.php">Elements</a>
+                    <a class="dropdown-item" href="elements.php">Sport</a>
+                  </div>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href=".../elements.php">Contato</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog-single.php">Criar conta</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../contact.php">Login</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
     <!--================ End Header Area =================-->
 
     <!--================ Start banner Area =================-->
@@ -128,10 +122,10 @@
         <section class="blog_area section-gap single-post-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-12">
        					<div class="main_blog_details">
-       						<img class="img-fluid" src="img/blog/news-blog.jpg" alt="">
-       						<a href="#"><h4>Cartridge Is Better Than Ever <br /> A Discount Toner</h4></a>
+       						<!-- <img class="img-fluid" src="img/blog/news-blog.jpg" alt=""> -->
+       						<a href="#"><h4>IFB lança chamada sobre relato de  <br /> experiências exitosas da Rede</h4></a>
        						<div class="user_details">
        							<div class="float-left">
        								<a href="#">Lifestyle</a>
@@ -316,7 +310,7 @@
                         </div>
 					</div>
 					
-                    <div class="col-lg-4 sidebar-widgets">
+                    <div style="display: none;" class="col-lg-4 sidebar-widgets">
 						<div class="widget-wrap">
 						  <div class="single-sidebar-widget search-widget">
 							<form class="search-form" action="#">
@@ -537,25 +531,25 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	  </footer>
 	  <!--================ End Footer Area =================-->
   
-	  <script src="js/vendor/jquery-2.2.4.min.js"></script>
+	  <script src="../js/vendor/jquery-2.2.4.min.js"></script>
 	  <script
 		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
 		integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
 		crossorigin="anonymous"
 	  ></script>
-	  <script src="js/vendor/bootstrap.min.js"></script>
-	  <script src="js/owl.carousel.min.js"></script>
-	  <script src="js/jquery.sticky.js"></script>
-	  <script src="js/jquery.tabs.min.js"></script>
-	  <script src="js/parallax.min.js"></script>
-	  <script src="js/jquery.nice-select.min.js"></script>
-	  <script src="js/jquery.ajaxchimp.min.js"></script>
-	  <script src="js/jquery.magnific-popup.min.js"></script>
+	  <script src="../js/vendor/bootstrap.min.js"></script>
+	  <script src="../js/owl.carousel.min.js"></script>
+	  <script src="../js/jquery.sticky.js"></script>
+	  <script src="../js/jquery.tabs.min.js"></script>
+	  <script src="../js/parallax.min.js"></script>
+	  <script src="../js/jquery.nice-select.min.js"></script>
+	  <script src="../js/jquery.ajaxchimp.min.js"></script>
+	  <script src="../js/jquery.magnific-popup.min.js"></script>
 	  <script
 		type="text/javascript"
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"
 	  ></script>
-	  <script src="js/bootstrap-datepicker.js"></script>
-	  <script src="js/main.js"></script>
+	  <script src="../js/bootstrap-datepicker.js"></script>
+	  <script src="../js/main.js"></script>
 	</body>
   </html>
