@@ -169,7 +169,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "Comfortaa", cursive;
   color: #13113a;
   line-height: 1.2;
   margin-bottom: 0;
@@ -185,7 +185,7 @@ h6 {
 .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Comfortaa", cursive;
   font-weight: 700;
   color: #13113a;
 }
@@ -2213,8 +2213,8 @@ h6 {
 .menu-left a {
   margin-right: 26px;
   color: #000;
-  font-size: 16px;
-  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-family: "Comfortaa", cursive;
   font-weight: 700;
 }
 @media (max-width: 1199px) {
@@ -2242,8 +2242,8 @@ h6 {
 .menu-right .nav-item .nav-link {
   margin: 0px 20px;
   color: #000;
-  font-size: 16px;
-  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-family: "Comfortaa", cursive;
   font-weight: 700;
   padding: 38px 0px;
 }
@@ -2678,7 +2678,7 @@ h6 {
 }
 .single-amenities .amenities-details h5 {
   font-size: 18px;
-  font-family: "Playfair Display", serif;
+  font-family: "Comfortaa", cursive;
   margin: 0px 0px 20px;
 }
 .single-amenities .amenities-details h5 a {

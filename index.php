@@ -15,9 +15,11 @@
   <!-- meta character set -->
   <meta charset="UTF-8" />
   <!-- Site Title -->
-  <title>Revive</title>
+  <title>Grêmio Campus do Amor</title>
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Playfair+Display:700,700i" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
+
   <!--
 			CSS
 			============================================= -->
@@ -38,72 +40,32 @@
   <!--================ End Header Area =================-->
 
   <!--================ Start banner Area =================-->
-  <section class="home-banner-area relative">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="owl-carousel home-banner-owl">
-          <div class="banner-img">
-            <img class="img-fluid" src="img/banner/b1.jpg" alt="" />
-            <div class="text-wrapper">
-              <a href="#" class="d-flex">
-                <h1>
-                  Make the world a better place <br />
-                  with camera
-                </h1>
-              </a>
-            </div>
-          </div>
-          <div class="banner-img">
-            <img class="img-fluid" src="img/banner/b2.jpg" alt="" />
-            <div class="text-wrapper">
-              <a href="#" class="d-flex">
-                <h1>
-                  Make the world a better place <br />
-                  with camera
-                </h1>
-              </a>
-            </div>
-          </div>
-          <div class="banner-img">
-            <img class="img-fluid" src="img/banner/b1.jpg" alt="" />
-            <div class="text-wrapper">
-              <a href="#" class="d-flex">
-                <h1>
-                  Make the world a better place <br />
-                  with camera
-                </h1>
-              </a>
-            </div>
-          </div>
-          <div class="banner-img">
-            <img class="img-fluid" src="img/banner/b2.jpg" alt="" />
-            <div class="text-wrapper">
-              <a href="#" class="d-flex">
-                <h1>
-                  Make the world a better place <br />
-                  with camera
-                </h1>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/banner/banner-bg.jpg" alt="First slide">
     </div>
-    <div class="social-icons">
-      <ul>
-        <li>
-          <a href="index.html"><i class="fa fa-facebook"></i></a>
-        </li>
-        <li>
-          <a href="index.html"><i class="fa fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="index.html"><i class="fa fa-pinterest"></i></a>
-        </li>
-        <li class="diffrent">sharre now</li>
-      </ul>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/banner/banner-bg.jpg" alt="Second slide">
     </div>
-  </section>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/banner/banner-bg.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
   <!--================ End banner Area =================-->
 
   <!--================ Start Blog Post Area =================-->
