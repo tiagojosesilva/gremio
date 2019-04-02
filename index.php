@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
-
 <head>
   <!-- Mobile Specific Meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -89,14 +88,13 @@
                     <a href="#" class="ml-20"><span class="ti-comment"></span>05</a>
                   </div>
                   <p>
-                    Creepeth green light appear let rule only you're divide
-                    and lights moving and isn't given creeping deep.
+                    Serão selecionadas dez experiências exitosas. Envio de inscrições até 16 de abri
                   </p>
 
                   <div class="d-flex justify-content-between mt-20">
                     <div>
                       <a href="post/blog-single.php" class="blog-post-btn">
-                        Read More <span class="ti-arrow-right"></span>
+                        Ler mais <span class="ti-arrow-right"></span>
                       </a>
                     </div>
                     <div class="category">
@@ -110,12 +108,11 @@
 
               <div class="single-amenities">
                 <div class="amenities-thumb">
-                  <img class="img-fluid w-100" src="img/blog-post/blog-post3.jpg" alt="" />
+                  <img class="img-fluid w-100" src="img/blog-post/propesc.png" alt="" />
                 </div>
                 <div class="amenities-details">
                   <h5>
-                    <a href="#">Forest responds to consultation smoking in al
-                      fresco.</a>
+                    <a href="#">Propesq divulga edital dos Programas IC&T</a>
                   </h5>
                   <div class="amenities-meta mb-10">
                     <a href="#" class="">
@@ -126,14 +123,13 @@
                     </a>
                   </div>
                   <p>
-                    Creepeth green light appear let rule only you're divide
-                    and lights moving and isn't given creeping deep.
+                    A Pró-Reitoria de Pesquisa, Pós-Graduação e Inovação do IFPE (Propesq) divulgou, nesta quinta-feira (21), o edital dos Programas de Iniciação Científica e Tecnológica para seleção de propostas de pesquisa (Planos de Atividades) a serem desenvolvidos por estudantes dos cursos superiores e técnicos, presenciais e a distância como bolsistas ou voluntários, durante o período 2019-2020.
                   </p>
 
                   <div class="d-flex justify-content-between mt-20">
                     <div>
-                      <a href="#" class="blog-post-btn">
-                        Read More <span class="ti-arrow-right"></span>
+                      <a href="post/blog-single.php" class="blog-post-btn">
+                        Ler mais <span class="ti-arrow-right"></span>
                       </a>
                     </div>
                     <div class="category">
@@ -147,11 +143,11 @@
 
               <div class="single-amenities">
                 <div class="amenities-thumb">
-                  <img class="img-fluid w-100" src="img/blog-post/blog-post5.jpg" alt="" />
+                  <img class="img-fluid w-100" src="img/blog-post/negros.png" alt="" />
                 </div>
                 <div class="amenities-details">
                   <h5>
-                    <a href="#">There's goting to be a musical about meghan
+                    <a href="#">Campus Recife recebe espetáculo “Clamor Negro”
                     </a>
                   </h5>
                   <div class="amenities-meta mb-10">
@@ -159,14 +155,13 @@
                     <a href="#" class="ml-20"><span class="ti-comment"></span>05</a>
                   </div>
                   <p>
-                    Creepeth green light appear let rule only you're divide
-                    and lights moving and isn't given creeping deep.
+                    Produção traz reflexões sobre as diversas opressões sofridas pelas mulheres negras até hoje
                   </p>
 
                   <div class="d-flex justify-content-between mt-20">
                     <div>
-                      <a href="#" class="blog-post-btn">
-                        Read More <span class="ti-arrow-right"></span>
+                      <a href="post/blog-single.php" class="blog-post-btn">
+                        Ler mais <span class="ti-arrow-right"></span>
                       </a>
                     </div>
                     <div class="category">
@@ -180,12 +175,11 @@
 
               <div class="single-amenities">
                 <div class="amenities-thumb">
-                  <img class="img-fluid w-100" src="img/blog-post/blog-post7.jpg" alt="" />
+                  <img class="img-fluid w-100" src="img/blog-post/inter.png" alt="" />
                 </div>
                 <div class="amenities-details">
                   <h5>
-                    <a href="#">Forest responds to consultation smoking in al
-                      fresco.</a>
+                    <a href="#">IFPE abre vagas para intercâmbio em Portugal</a>
                   </h5>
                   <div class="amenities-meta mb-10">
                     <a href="#" class="">
@@ -196,14 +190,13 @@
                     </a>
                   </div>
                   <p>
-                    Creepeth green light appear let rule only you're divide
-                    and lights moving and isn't given creeping deep.
+                    Estudantes de graduação e mestrado podem cursar disciplinas no Polítécnico de Bragança
                   </p>
 
                   <div class="d-flex justify-content-between mt-20">
                     <div>
-                      <a href="#" class="blog-post-btn">
-                        Read More <span class="ti-arrow-right"></span>
+                      <a href="post/blog-single.php" class="blog-post-btn">
+                        Ler mais <span class="ti-arrow-right"></span>
                       </a>
                     </div>
                     <div class="category">
@@ -219,11 +212,11 @@
             <div class="col-lg-6 col-md-6">
               <div class="single-amenities">
                 <div class="amenities-thumb">
-                  <img class="img-fluid w-100" src="img/blog-post/blog-post2.jpg" alt="" />
+                  <img class="img-fluid w-100" src="img/blog-post/mm.png" alt="" />
                 </div>
                 <div class="amenities-details">
                   <h5>
-                    <a href="#">There's goting to be a musical about meghan
+                    <a href="#">Divulgada errata do concurso de vídeos sobre a mulher na mídia
                     </a>
                   </h5>
                   <div class="amenities-meta mb-10">
@@ -231,14 +224,13 @@
                     <a href="#" class="ml-20"><span class="ti-comment"></span>05</a>
                   </div>
                   <p>
-                    Creepeth green light appear let rule only you're divide
-                    and lights moving and isn't given creeping deep.
+                    O prazo para envio dos vídeos vai agora até o dia quatro de abril. Podem participar estudantes regularmente matriculados em cursos técnicos ou superiores de todos os campi e polos de Educação a Distância da instituição
                   </p>
 
                   <div class="d-flex justify-content-between mt-20">
                     <div>
-                      <a href="#" class="blog-post-btn">
-                        Read More <span class="ti-arrow-right"></span>
+                      <a href="post/blog-single.php" class="blog-post-btn">
+                        Ler mais <span class="ti-arrow-right"></span>
                       </a>
                     </div>
                     <div class="category">
@@ -252,12 +244,11 @@
 
               <div class="single-amenities">
                 <div class="amenities-thumb">
-                  <img class="img-fluid w-100" src="img/blog-post/blog-post4.jpg" alt="" />
+                  <img class="img-fluid w-100" src="img/blog-post/sisu.png" alt="" />
                 </div>
                 <div class="amenities-details">
                   <h5>
-                    <a href="#">Forest responds to consultation smoking in al
-                      fresco.</a>
+                    <a href="#">Divulgada 3ª Convocatória de matrícula da Lista de Espera do SiSU 2019</a>
                   </h5>
                   <div class="amenities-meta mb-10">
                     <a href="#" class="">
@@ -268,14 +259,13 @@
                     </a>
                   </div>
                   <p>
-                    Creepeth green light appear let rule only you're divide
-                    and lights moving and isn't given creeping deep.
+                    O IFPE publicou, nesta quarta-feira (27), a terceira convocatória para realização de matrícula dos candidatos da Lista de Espera do SiSU 2019. A convocatória foi feita levando em consideração os candidatos da Lista de Espera que realizaram a manifestação presencial de interesse pela vaga.
                   </p>
 
                   <div class="d-flex justify-content-between mt-20">
                     <div>
-                      <a href="#" class="blog-post-btn">
-                        Read More <span class="ti-arrow-right"></span>
+                      <a href="post/blog-single.php" class="blog-post-btn">
+                        Ler mais <span class="ti-arrow-right"></span>
                       </a>
                     </div>
                     <div class="category">
@@ -289,11 +279,11 @@
 
               <div class="single-amenities">
                 <div class="amenities-thumb">
-                  <img class="img-fluid w-100" src="img/blog-post/blog-post6.jpg" alt="" />
+                  <img class="img-fluid w-100" src="img/blog-post/solidario.png" alt="" />
                 </div>
                 <div class="amenities-details">
                   <h5>
-                    <a href="#">There's goting to be a musical about meghan
+                    <a href="#">IFPE solidário
                     </a>
                   </h5>
                   <div class="amenities-meta mb-10">
@@ -301,14 +291,13 @@
                     <a href="#" class="ml-20"><span class="ti-comment"></span>05</a>
                   </div>
                   <p>
-                    Creepeth green light appear let rule only you're divide
-                    and lights moving and isn't given creeping deep.
+                    O Instituto Federal de Pernambuco (IFPE) está promovendo uma campanha de arrecadação de itens de higiene pessoal a serem doados às vítimas do ciclone que atingiu os países africanos Moçambique, Malawi e Zimbábue. 
                   </p>
 
                   <div class="d-flex justify-content-between mt-20">
                     <div>
-                      <a href="#" class="blog-post-btn">
-                        Read More <span class="ti-arrow-right"></span>
+                      <a href="post/blog-single.php" class="blog-post-btn">
+                        Ler mais <span class="ti-arrow-right"></span>
                       </a>
                     </div>
                     <div class="category">
@@ -322,12 +311,11 @@
 
               <div class="single-amenities">
                 <div class="amenities-thumb">
-                  <img class="img-fluid w-100" src="img/blog-post/blog-post8.jpg" alt="" />
+                  <img class="img-fluid w-100" src="img/blog-post/gestao.png" alt="" />
                 </div>
                 <div class="amenities-details">
                   <h5>
-                    <a href="#">Forest responds to consultation smoking in al
-                      fresco.</a>
+                    <a href="#">Reitoria dá início ao programa Diálogos de Gestão.</a>
                   </h5>
                   <div class="amenities-meta mb-10">
                     <a href="#" class="">
@@ -338,14 +326,13 @@
                     </a>
                   </div>
                   <p>
-                    Creepeth green light appear let rule only you're divide
-                    and lights moving and isn't given creeping deep.
-                  </p>
+                    A Reitoria do IFPE deu início, nesta quarta-feira (13), ao programa Diálogos da Gestão. A iniciativa tem como objetivo integrar as equipes de gestores sistêmica e dos campi, por meio de encontros em que ocorrem apresentação de dados e o compartilhamento de experiências e boas práticas.
+                    </p>
 
                   <div class="d-flex justify-content-between mt-20">
                     <div>
-                      <a href="#" class="blog-post-btn">
-                        Read More <span class="ti-arrow-right"></span>
+                      <a href="post/blog-single.php" class="blog-post-btn">
+                        Ler mais <span class="ti-arrow-right"></span>
                       </a>
                     </div>
                     <div class="category">
