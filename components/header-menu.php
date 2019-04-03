@@ -3,8 +3,7 @@
       <div class="header-wrap">
         <div class="header-top d-flex justify-content-between align-items-lg-center navbar-expand-lg">
           <div class="col menu-left">
-            <a class="active" href="index.php">Home</a>
-            <a href="archive.php">Galeria</a>
+            <a class="active" href="../index.php">Inicio  </a>
             <div class="dropdown d-inline">
               <a class="nav-link dropdown-toggle d-inline" href="#" id="navbarDropdown" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -12,10 +11,10 @@
               </a>
 
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Sobre</a>
+                <a class="dropdown-item" href="#">Galeria</a>
+                <a class="dropdown-item" href="#">Calendario</a>
+                
               </div>
             </div>
           </div>
@@ -36,7 +35,7 @@
             <div class="collapse navbar-collapse menu-right" id="collapsibleNavbar">
               <ul class="navbar-nav justify-content-center w-100">
                 <li class="nav-item hide-lg">
-                  <a class="nav-link" href="index.php">Home</a>
+                  <a class="nav-link" href="index.php">Inicio </a>
                 </li>
                 <!-- Dropdown -->
                 <li class="nav-item dropdown hide-lg">
@@ -49,14 +48,12 @@
                   </div>
                 </li>
                 
+             
                 <li class="nav-item">
-                  <a class="nav-link" href="elements.php">Sobre</a>
+                  <a class="nav-link" href="../pages/cadastro.php">Criar conta</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="blog-single.php">Criar conta</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.php">Login</a>
+                  <a class="nav-link" href="#">Login</a>
                 </li>
               </ul>
             </div>
