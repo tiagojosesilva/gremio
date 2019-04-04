@@ -11,7 +11,7 @@
               </a>
 
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Sobre</a>
+                <a class="dropdown-item" href="../pages/sobre.php">Sobre</a>
                 <a class="dropdown-item" href="../pages/gallery.php">Galeria</a>
                 <a class="dropdown-item" href="../pages/calendar/calendar.php">Calendario</a>
                 

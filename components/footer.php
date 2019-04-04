@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-lg-3  col-md-6 col-sm-6">
           <div class="single-footer-widget">
-            <h6>Sobre nos</h6>
+            <h6>Sobre nós</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
               dolore
