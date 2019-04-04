@@ -3,21 +3,21 @@
 <head>
 		<meta charset="UTF-8">
 	<title>Document</title>
-  <link rel="stylesheet" href="../css/linearicons.css" />
-  <link rel="stylesheet" href="../css/font-awesome.min.css" />
-  <link rel="stylesheet" href="../css/magnific-popup.css" />
-  <link rel="stylesheet" href="../css/nice-select.css" />
-  <link rel="stylesheet" href="../css/owl.carousel.css" />
-  <link rel="stylesheet" href="../css/bootstrap.css" />
-  <link rel="stylesheet" href="../css/bootstrap-datepicker.css" />
-  <link rel="stylesheet" href="../css/themify-icons.css" />
-  <link rel="stylesheet" href="../css/main.css"/>
-  <link rel="stylesheet" href="../css/Calendar.css"/>
+  <link rel="stylesheet" href="../../css/linearicons.css" />
+  <link rel="stylesheet" href="../../css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../../css/magnific-popup.css" />
+  <link rel="stylesheet" href="../../css/nice-select.css" />
+  <link rel="stylesheet" href="../../css/owl.carousel.css" />
+  <link rel="stylesheet" href="../../css/bootstrap.css" />
+  <link rel="stylesheet" href="../../css/bootstrap-datepicker.css" />
+  <link rel="stylesheet" href="../../css/themify-icons.css" />
+  <link rel="stylesheet" href="../../css/main.css"/>
+  <link rel="stylesheet" href="../../css/Calendar.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 
 </head>
 <body link=black vlink=black alink=black>
-	<?php include "../components/header-menu.php" ?>
-
+	<?php include "../../components/header-menu.php" ?>
 <?php
 
 //gera calendario
@@ -320,7 +320,8 @@ Function converte_mes($mes)
 }
 
 ?>
+<?php include '../../components/footer.php' ?>
 
-</body>
+	</body>
 
 </html>
