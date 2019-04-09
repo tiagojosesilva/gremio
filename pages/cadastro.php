@@ -70,19 +70,7 @@
           
         </form>
         
-        <div class="col-lg-5 mx-auto order-first order-lg-1 mb-5">
-          <h2 class="h6 text-primary" class="m-3">....</h2>
-          <div class="bg-light rounded p-4 box-shadow">
-            <h2>xxx</h2>
-            <ul class="lista-plano list-unstyled">
-              <li>→ </li>
-              <li>→ </li>
-              <li>→ </li>
-              <li>→ </li>
-            </ul>
-            <div class="row mt-4">
-              <div class="col">
-              </div>
+        
             </div>
           </div>
         </div>
