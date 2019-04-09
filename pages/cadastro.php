@@ -45,15 +45,15 @@
             </div>
             <div class="form-group col-md-6">
               <label for="inputSenha">Número da matricula</label>
-              <input type="password" class="form-control" id="inputSenha" placeholder="Nº da matricula">
+              <input type="text" class="form-control" id="inputSenha" placeholder="Nº da matricula">
             </div>
             <div class="form-group col-md-6">
               <label for="inputNome">Senha</label>
-              <input type="text" class="form-control" id="inputNome" placeholder="Senha">
+              <input type="password" class="form-control" id="inputNome" placeholder="Senha">
             </div>
             <div class="form-group col-md-6">
               <label for="inputCPF">Confirmar senha</label>
-              <input type="text" class="form-control" id="inputCPF" placeholder="Confirmar senha">
+              <input type="password" class="form-control" id="inputCPF" placeholder="Confirmar senha">
             </div>
             
             
