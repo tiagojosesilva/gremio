@@ -3,7 +3,7 @@
       <div class="header-wrap">
         <div class="header-top d-flex justify-content-between align-items-lg-center navbar-expand-lg">
           <div class="col menu-left">
-            <a class="active" href="../index.php">Inicio  </a>
+            <a class="active" href="../index.php">Inicio</a>
             <div class="dropdown d-inline">
               <a class="nav-link dropdown-toggle d-inline" href="#" id="navbarDropdown" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -35,7 +35,7 @@
             <div class="collapse navbar-collapse menu-right" id="collapsibleNavbar">
               <ul class="navbar-nav justify-content-center w-100">
                 <li class="nav-item hide-lg">
-                  <a class="nav-link" href="index.php">Inicio </a>
+                  <a class="nav-link" href="index.php">Inicio</a>
                 </li>
                 <!-- Dropdown -->
                 <li class="nav-item dropdown hide-lg">
@@ -46,14 +46,13 @@
                     <a class="dropdown-item" href="elements.php">Elements</a>
                     <a class="dropdown-item" href="elements.php">Sport</a>
                   </div>
-                </li>
-                
+                </li>               
              
                 <li class="nav-item">
                   <a class="nav-link" href="../pages/cadastro.php">Criar conta</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Login</a>
+                  <a class="nav-link" href="../pages/login.php">Login</a>
                   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
