@@ -42,8 +42,7 @@
           </div>
         </div>
       </div>
-    </section>
-  
+    </section>  
   <?php include '../components/footer.php' ?>
 </body>
 </html>
