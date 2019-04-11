@@ -42,6 +42,6 @@ if (sizeof($data_email) > 0) {
 	$queryInsert->bindParam(':senha', md5($dados['senha']));
 	$queryInsert->execute();
 	
-	header('location: consultas.php');
+	header('location: ../../pages/login.php');
 }
  ?>

@@ -2,7 +2,6 @@
 if (!isset($_SESSION['erro'])) {
   header('Location: https://google.com');
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +21,6 @@ if (!isset($_SESSION['erro'])) {
   <link rel="stylesheet" href="../css/main.css" />
 
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
-
 </head>
 <body>
   <?php include '../components/header-menu.php' ?>
