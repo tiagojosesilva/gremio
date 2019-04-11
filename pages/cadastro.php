@@ -53,28 +53,43 @@ if (!isset($_SESSION['erro'])) {
             </div>
             <div class="form-group col-md-6">
               <label for="inputNome">Senha</label>
+<<<<<<< HEAD
+              <input type="password" class="form-control senha" id="inputNome" placeholder="Senha" ">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputCF">Confirmar senha</label>
+              <input type="password" class="form-control senhaCF" id="inputCF" placeholder="Confirmar senha">
+=======
               <input type="password" class="form-control" id="inputNome" placeholder="Senha" name="senha">
             </div>
             <div class="form-group col-md-6">
               <label for="inputCPF">Confirmar senha</label>
               <input type="password" class="form-control" id="inputCPF" placeholder="Confirmar senha" name="confirmarsenha">
+>>>>>>> 1e902e14188bb696b09de4de5fccedee9d93a6bf
             </div>
           </div>
            
           <div class="form-check">
             <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
+              <input type="checkbox" class="form-check-input botao-check">
               Concordo com os <a href="#">Termos e Condições</a>.
             </label>
+<<<<<<< HEAD
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-lg btnSubmit">Criar conta</button>
+          
+=======
           </div>          
           <button type="submit" class="btn btn-primary btn-lg">Criar conta</button>
+>>>>>>> 1e902e14188bb696b09de4de5fccedee9d93a6bf
         </form>
             </div>
           </div>
         </div>
       </div>
     </section>
-  
   <?php include '../components/footer.php' ?>
+  <script src="../js/senha.js"></script>
 </body>
 </html>
