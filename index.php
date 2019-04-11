@@ -4,7 +4,7 @@
   <!-- Mobile Specific Meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Favicon-->
-  <link rel="shortcut icon" href="img/fav.png" />
+  <link rel="shortcut icon" href="img/favicon.jpg" />
   <!-- Author Meta -->
   <meta name="author" content="CodePixar" />
   <!-- Meta Description -->
@@ -14,7 +14,7 @@
   <!-- meta character set -->
   <meta charset="UTF-8" />
   <!-- Site Title -->
-  <title>Grêmio Campus do Amor</title>
+  <title>Campus do Amor</title>
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Playfair+Display:700,700i" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
