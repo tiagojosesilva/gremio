@@ -89,14 +89,6 @@
       						<div class="news_d_footer flex-column flex-sm-row">
       							<a href="#"><i class="lnr lnr lnr-heart"></i>Lily and 4 people like this</a>
       							<a class="justify-content-sm-center ml-sm-auto mt-sm-0 mt-2" href="#"><i class="lnr lnr lnr-bubble"></i>06 Comments</a>
-      							<div class="news_socail ml-sm-auto mt-sm-0 mt-2">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-youtube-play"></i></a>
-									<a href="#"><i class="fa fa-pinterest"></i></a>
-									<a href="#"><i class="fa fa-rss"></i></a>
-								</div>
-      						</div>
        					</div>
        					<div class="navigation-area">
                             <div class="row">
