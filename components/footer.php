@@ -11,21 +11,12 @@
         </div>
         <div class="col-lg-4  col-md-6 col-sm-6">
           <div class="single-footer-widget">
-            <h6>Newsletter</h6>
-            <p>Coloque aqui seu e-mail para receber atualizações.</p>
+            <p class="h6 mb-4 text-white">Estatuto do Grêmio</p>
+        <a href="download/acme-doc-2.0.1.pdf" download="Estatuto-gremio.pdf">
+          <button type="button" class="btn btn-light">DOWNLOAD</button>
             <div class="" id="mc_embed_signup">
                 <div class="d-flex flex-row">
 
-
-                  <button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right"
-                      aria-hidden="true"></i></button>
-                  <div style="position: absolute; left: -5000px;">
-                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-                  </div>
-
-                  <!-- <div class="col-lg-4 col-md-4">
-                          <button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
-                        </div>  -->
                 </div>
                 <div class="info"></div>
               </form>
@@ -49,14 +40,9 @@
             </ul>
           </div>
         </div>
-        
       </div>
       <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
-        <p class="footer-text m-0">        
-          
-         
-       
-        </p>
+        <p class="footer-text m-0"></p>
       </div>
     </div>
   </footer>

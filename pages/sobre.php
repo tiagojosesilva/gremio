@@ -274,12 +274,12 @@
         <div style="width: 300px; background-color:  black; height: 3px; "></div>
       </div>
 
-      <div class="container">
+   <!--    <div class="container">
         <p class="h6 mb-4">Faça download do Estatuto do Grêmio.</p>
         <a href="download/acme-doc-2.0.1.pdf" download="Estatuto-gremio.pdf">
           <button type="button" class="btn btn-primary">Clique aqui!</button>
         </a>
-      </div>
+      </div> -->
 
       <?php include '../components/footer.php' ?>
 
