@@ -20,8 +20,8 @@
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 
   <!--
-			CSS
-			============================================= -->
+      CSS
+      ============================================= -->
   <link rel="stylesheet" href="css/linearicons.css" />
   <link rel="stylesheet" href="css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/magnific-popup.css" />
@@ -47,13 +47,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/banner/banner-bg.jpg" class="d-block w-100" alt="...">
+      <img src="img/banner/ifpe.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/banner/banner-bg.jpg" class="d-block w-100" alt="...">
+      <img src="img/banner/gremio-estudantil.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/banner/banner-bg.jpg" class="d-block w-100" alt="...">
+      <img src="img/banner/cinema.jpeg" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

@@ -89,6 +89,7 @@
       						<!-- <div class="news_d_footer flex-column flex-sm-row">
       							<a href="#"><i class="lnr lnr lnr-heart"></i>Lily and 4 people like this</a>
       							<a class="justify-content-sm-center ml-sm-auto mt-sm-0 mt-2" href="#"><i class="lnr lnr lnr-bubble"></i>06 Comments</a>
+<<<<<<< HEAD
       							<div class="news_socail ml-sm-auto mt-sm-0 mt-2">
 									<a href="#"><i class="fa fa-facebook"></i></a>
 									<a href="#"><i class="fa fa-twitter"></i></a>
@@ -97,6 +98,8 @@
 									<a href="#"><i class="fa fa-rss"></i></a>
 								</div>
       						</div> -->
+=======
+>>>>>>> 2a6eac3e8fccdaeed66ad4ada7c8852c43236987
        					</div>
        					<div class="navigation-area">
                             <div class="row">
