@@ -5,16 +5,14 @@
           <div class="single-footer-widget">
             <h6>Sobre nós</h6>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-              dolore
-              magna aliqua.
+              Nos empenhamos na criação deste site para que cada aluno tenha um acesso mais facil sobre os eventos realizados pelo grêmio estudantil campus do amor.
             </p>
           </div>
         </div>
         <div class="col-lg-4  col-md-6 col-sm-6">
           <div class="single-footer-widget">
             <h6>Newsletter</h6>
-            <p>Assine nossas newsletter</p>
+            <p>Coloque aqui seu e-mail para receber atualizações.</p>
             <div class="" id="mc_embed_signup">
                 <div class="d-flex flex-row">
 
@@ -36,7 +34,9 @@
         </div>
         <div class="col-lg-3  col-md-6 col-sm-6">
           <div class="single-footer-widget mail-chimp">
+          <a href="https://www.instagram.com/gremio_campus_amor/" target="_blank">
             <h6 class="mb-20">Instragram Feed</h6>
+            </a>
             <ul class="instafeed d-flex flex-wrap">
               <li><img src="img/instagram/i1.jpg" alt=""></li>
               <li><img src="img/instagram/i2.jpg" alt=""></li>
@@ -49,18 +49,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-6">
-          <div class="single-footer-widget">
-            <h6>Nossas redes socias</h6>
-            <p>Siga-nos</p>
-            <div class="footer-social d-flex align-items-center">
-              <a href="#"><i class="fa fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-dribbble"></i></a>
-              <a href="#"><i class="fa fa-behance"></i></a>
-            </div>
-          </div>
-        </div>
+        
       </div>
       <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
         <p class="footer-text m-0">        

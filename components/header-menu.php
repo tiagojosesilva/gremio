@@ -1,4 +1,9 @@
 <header class="header-area">
+<style type="text/css">
+  #cursor-do-icone{
+      cursor: wait;
+  }
+</style>
     <div class="container">
       <div class="header-wrap">
         <div class="header-top d-flex justify-content-between align-items-lg-center navbar-expand-lg">
@@ -20,8 +25,10 @@
           <div class="col-5 text-lg-center mt-2 mt-lg-0">
             <span class="logo-outer">
               <span class="logo-inner align-center" >
-                <h1 class="logo-title">Grêmio do IFPE</h1>
-                <h1 class="logo-title">Campus do Amor</h1>
+              <a href="https://www.instagram.com/gremio_campus_amor/" target="_blank">
+                <img src="../img/amor.jpg" height="60" width="70" id="cursor-do-icone">
+                </a>
+                <h1 class="logo-title"> Grêmio Campus do Amor</h1>
               </span>
             </span>
           </div>
