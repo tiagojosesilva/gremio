@@ -4,7 +4,7 @@
   <!-- Mobile Specific Meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Favicon-->
-  <link rel="shortcut icon" href="img/favicon.jpg" />
+  <link rel="shortcut icon" href="img/Amor.png" />
   <!-- Author Meta -->
   <meta name="author" content="CodePixar" />
   <!-- Meta Description -->
@@ -47,13 +47,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/banner/ifpe.jpg" class="d-block w-100" alt="...">
+      <img src="img/primeiro.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/banner/gremio-estudantil.jpg" class="d-block w-100" alt="...">
+      <img src="img/segundo.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/banner/cinema.jpeg" class="d-block w-100" alt="...">
+      <img src="img/terceiro.png" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

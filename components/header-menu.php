@@ -26,7 +26,7 @@
             <span class="logo-outer">
               <span class="logo-inner align-center" >
               <a href="https://www.instagram.com/gremio_campus_amor/" target="_blank">
-                <img src="../img/amor.jpg" height="60" width="70" id="cursor-do-icone">
+                <img src="../img/amor.png" height="60" width="70" id="cursor-do-icone">
                 </a>
                 <h1 class="logo-title"> Grêmio Campus do Amor</h1>
               </span>

@@ -12,7 +12,7 @@
         <div class="col-lg-4  col-md-6 col-sm-6">
           <div class="single-footer-widget">
             <p class="h6 mb-4 text-white">Estatuto do Grêmio</p>
-        <a href="download/acme-doc-2.0.1.pdf" download="Estatuto-gremio.pdf">
+        <a href="img/estatuto.pdf" download="estatuto.pdf">
           <button type="button" class="btn btn-light">DOWNLOAD</button>
             <div class="" id="mc_embed_signup">
                 <div class="d-flex flex-row">
@@ -29,14 +29,14 @@
             <h6 class="mb-20">Instragram Feed</h6>
             </a>
             <ul class="instafeed d-flex flex-wrap">
-              <li><img src="img/instagram/i1.jpg" alt=""></li>
-              <li><img src="img/instagram/i2.jpg" alt=""></li>
-              <li><img src="img/instagram/i3.jpg" alt=""></li>
-              <li><img src="img/instagram/i4.jpg" alt=""></li>
-              <li><img src="img/instagram/i5.jpg" alt=""></li>
-              <li><img src="img/instagram/i6.jpg" alt=""></li>
-              <li><img src="img/instagram/i7.jpg" alt=""></li>
-              <li><img src="img/instagram/i8.jpg" alt=""></li>
+              <li><img src="img/icon instagram/arte.png" alt="" height="60" width="60"></li>
+              <li><img src="img/icon instagram/cine.jpg" alt="" height="60" width="60"></li>
+              <li><img src="img/icon instagram/autismo.png" alt="" height="60" width="60"></li>
+              <li><img src="img/icon instagram/jogos.png" alt="" height="60" width="60"></li>
+              <li><img src="img/icon instagram/ngm.jpg" alt="" height="60" width="60"></li>
+              <li><img src="img/icon instagram/orgulho.png" alt="" height="60" width="60"></li>
+              <li><img src="img/icon instagram/sugestão.png" alt="" height="60" width="60"></li>
+              <li><img src="img/icon instagram/esporte.png" alt="" height="60" width="60"></li>
             </ul>
           </div>
         </div>
