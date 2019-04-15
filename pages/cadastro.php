@@ -1,8 +1,4 @@
-<?php session_start();
-if (!isset($_SESSION['erro'])) {
-  header('Location: https://google.com');
-}
-?>
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,16 +15,17 @@ if (!isset($_SESSION['erro'])) {
   <link rel="stylesheet" href="../css/bootstrap-datepicker.css" />
   <link rel="stylesheet" href="../css/themify-icons.css" />
   <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/flex.css">
 
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 </head>
 <body>
   <?php include '../components/header-menu.php' ?>
-  <section class="container my-5" >
+  <section class="container my-5 cadastro" >
       <div class="my-5 text-center">
         <span class="h6 d-block">Crie sua conta</span>
       </div>
-      <div class="row">
+      <div class="row justify-content-center">
         <form class="col-lg-6" action="../bd/crud/addUser.php" method="POST">
           <div class="form-row">
             <div class="form-group col-md-6">
@@ -53,19 +50,12 @@ if (!isset($_SESSION['erro'])) {
             </div>
             <div class="form-group col-md-6">
               <label for="inputNome">Senha</label>
-<<<<<<< HEAD
-              <input type="password" class="form-control senha" id="inputNome" placeholder="Senha" ">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="inputCF">Confirmar senha</label>
-              <input type="password" class="form-control senhaCF" id="inputCF" placeholder="Confirmar senha">
-=======
+
               <input type="password" class="form-control" id="inputNome" placeholder="Senha" name="senha">
             </div>
             <div class="form-group col-md-6">
               <label for="inputCPF">Confirmar senha</label>
               <input type="password" class="form-control" id="inputCPF" placeholder="Confirmar senha" name="confirmarsenha">
->>>>>>> 1e902e14188bb696b09de4de5fccedee9d93a6bf
             </div>
           </div>
            
@@ -74,15 +64,12 @@ if (!isset($_SESSION['erro'])) {
               <input type="checkbox" class="form-check-input botao-check">
               Concordo com os <a href="#">Termos e Condições</a>.
             </label>
-<<<<<<< HEAD
+
           </div>
           
           <button type="submit" class="btn btn-primary btn-lg btnSubmit">Criar conta</button>
           
-=======
-          </div>          
-          <button type="submit" class="btn btn-primary btn-lg">Criar conta</button>
->>>>>>> 1e902e14188bb696b09de4de5fccedee9d93a6bf
+
         </form>
             </div>
           </div>
