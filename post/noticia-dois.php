@@ -17,7 +17,7 @@
     <!-- meta character set -->
     <meta charset="UTF-8" />
     <!-- Site Title -->
-    <title>Blog Details</title>
+    <title>Campus do amor</title>
 
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Playfair+Display:700,700i"
@@ -25,9 +25,8 @@
     />
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 
-    <!--
-			CSS
-			============================================= -->
+    
+			
     <link rel="stylesheet" href="../css/linearicons.css" />
     <link rel="stylesheet" href="../css/font-awesome.min.css" />
     <link rel="stylesheet" href="../css/magnific-popup.css" />
@@ -79,27 +78,24 @@
        								</div>
        							</div>
        						</div>
-       						<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower</p>
+       						<p>outra</p>
        						<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed MCSE training.</p>
-							<blockquote class="blockquote">
-								<p class="mb-0">MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training.</p>
-							</blockquote>
+							
 							<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower</p>
 							<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower</p>
-      						<!-- <div class="news_d_footer flex-column flex-sm-row">
-      							<a href="#"><i class="lnr lnr lnr-heart"></i>Lily and 4 people like this</a>
+              <blockquote class="blockquote">
+                <p class="mb-0">MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training.</p>
+              </blockquote>
+      						<div class="news_d_footer flex-column flex-sm-row">
+      							<a href="#"><i class="lnr lnr lnr-heart"></i>pessoas curtiram essa publicação</a>
       							<a class="justify-content-sm-center ml-sm-auto mt-sm-0 mt-2" href="#"><i class="lnr lnr lnr-bubble"></i>06 Comments</a>
-<<<<<<< HEAD
+
+
       							<div class="news_socail ml-sm-auto mt-sm-0 mt-2">
 									<a href="#"><i class="fa fa-facebook"></i></a>
 									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-youtube-play"></i></a>
-									<a href="#"><i class="fa fa-pinterest"></i></a>
-									<a href="#"><i class="fa fa-rss"></i></a>
 								</div>
-      						</div> -->
-=======
->>>>>>> 2a6eac3e8fccdaeed66ad4ada7c8852c43236987
+      						</div> 
        					</div>
        					<div class="navigation-area">
                             <div class="row">
@@ -111,14 +107,14 @@
                                         <a href="#"><span class="lnr text-white lnr-arrow-left"></span></a>
                                     </div>
                                     <div class="detials">
-                                        <p>Prev Post</p>
-                                        <a href="#"><h4>A Discount Toner</h4></a>
+                                        <p>post anterior </p>
+                                        <a href="#"><h4></h4></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
                                     <div class="detials">
-                                        <p>Next Post</p>
-                                        <a href="#"><h4>Cartridge Is Better</h4></a>
+                                        <p>próximo post</p>
+                                        <a href="blog-single.php"><h4>Cartridge Is Better</h4></a>
                                     </div>
                                     <div class="arrow">
                                         <a href="#"><span class="lnr text-white lnr-arrow-right"></span></a>
