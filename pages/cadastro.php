@@ -26,7 +26,7 @@
         <span class="h6 d-block">Crie sua conta</span>
       </div>
       <div class="row justify-content-center">
-        <form class="col-lg-6" action="../bd/crud/addUser.php" method="POST">
+        <form class="col-lg-6" action="../php/addUser.php" method="POST">
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="inputNome">Nome</label>

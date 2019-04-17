@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,19 +22,21 @@
 <body>
   <?php include '../components/header-menu.php' ?>
   <section class="container my-5" >
-      <div class="my-5 text-center">
-        <span class="h6 d-block">Crie sua conta</span>
-      </div>
       <div class="d-flex justify-content-center">
-        <form class="col-lg-6" action="">
+        <form class="col-lg-6" action="../php/verifLogin.php" method = "POST">
           <div class="form-row">
             <div class="form-group col-md-6">
-              <input type="text" id="login" class="form-control" name="login" placeholder="login">
+              <?php
+              if (isset($_SESSION['erroLogin'])) {
+                echo $_SESSION['erroLogin'];
+              }
+              ?>
+              <input type="text" id="login" class="form-control" name="matricula" placeholder="matricula">
             </div>
             <div class="form-group col-md-7">
-              <input type="text" id="password" class="form-control" name="login" placeholder="password">
+              <input type="password" id="password" class="form-control" name="senha" placeholder="senha">
             </div>                 
-            <input type="submit" class="btn btn-success" value="Log In">
+            <input type="submit" class="btn btn-success" value="entrar">
             <input type="submit" class="btn btn-warning"  value="Esqueceu a senha?">
           </div>
           </div>       
@@ -44,5 +47,8 @@
       </div>
     </section>  
   <?php include '../components/footer.php' ?>
+  <?php
+    unset($_SESSION['erroLogin']);
+  ?>
 </body>
 </html>
