@@ -80,7 +80,7 @@
                 </div>
                 <div class="amenities-details">
                   <h5>
-                    <a href="post/blog-single.php">IFB lança chamada sobre relato de experiências exitosas da Rede
+                    <a href="post/noticia-um.php">IFB lança chamada sobre relato de experiências exitosas da Rede
                     </a>
                   </h5>
                   <div class="amenities-meta mb-10">
@@ -93,7 +93,7 @@
 
                   <div class="d-flex justify-content-between mt-20">
                     <div>
-                      <a href="post/blog-single.php" class="blog-post-btn">
+                      <a href="post/noticia-um.php" class="blog-post-btn">
                         Ler mais <span class="ti-arrow-right"></span>
                       </a>
                     </div>
@@ -216,7 +216,7 @@
                 </div>
                 <div class="amenities-details">
                   <h5>
-                    <a href="#">Divulgada errata do concurso de vídeos sobre a mulher na mídia
+                    <a href="post/noticia-dois.php">Divulgada errata do concurso de vídeos sobre a mulher na mídia
                     </a>
                   </h5>
                   <div class="amenities-meta mb-10">
@@ -357,8 +357,8 @@
                       </span>
                     </a>
                   </li>
-                  <li class="page-item"><a href="#" class="page-link">01</a></li>
-                  <li class="page-item active"><a href="#" class="page-link">02</a></li>
+                  <li class="page-item active"><a href="#" class="page-link">01</a></li>
+                  <li class="page-item"><a href="#" class="page-link">02</a></li>
                   <li class="page-item"><a href="#" class="page-link">03</a></li>
                   <li class="page-item"><a href="#" class="page-link">04</a></li>
                   <li class="page-item"><a href="#" class="page-link">09</a></li>
