@@ -52,6 +52,16 @@ $resultado_events = mysqli_query($conn, $result_events);
 					navLinks: true, // can click day/week names to navigate views
 					editable: true,
 					eventLimit: true, // allow "more" link when too many events
+					eventClick: function(calEvent, jsEvent, view){
+
+    					alert('Event: ' + calEvent.title);
+    					alert('Coordinates: ' + jsEvent.pageX + ',' + jsEvent.pageY);
+    					alert('View: ' + view.name);
+
+    					// change the border color just for fun
+    					$(this).css('border-color', 'red');
+  				},
+
 					events: [
 						<?php
 							while($row_events = mysqli_fetch_array($resultado_events)){
