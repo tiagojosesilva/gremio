@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../css/main.css">
 <footer class="footer-area section-gap">
     <div class="container">
       <div class="row">

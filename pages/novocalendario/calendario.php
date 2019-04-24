@@ -4,10 +4,44 @@ $result_events = "SELECT id, title, color, start, end FROM events";
 $resultado_events = mysqli_query($conn, $result_events);
 ?>
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="no-js">
 	<head>
+	<style type="text/css">
+		#foter{
+			width: 100%	;
+			height: 400px;
+			background-color: black;
+          }
+          #menuu{
+          	text-align: center;
+          	padding: -40px;
+          	
+
+          }
+	</style>
+	<div id="menuu">
+	<?php include '../../components/header-menu.php' ?>
+	</div>
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="../img/amor.png" />
+  <!-- Author Meta -->
+  <meta name="author" content="CodePixar" />
+  <!-- Meta Description -->
+  <meta name="description" content="" />
+  <!-- Meta Keyword -->
+  <meta name="keywords" content="" />
+  <!-- meta character set -->
+  <meta charset="UTF-8" />
+  <!-- Site Title -->
+  <title>Campus do Amor</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Playfair+Display:700,700i" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 		<meta charset='utf-8' />
 		<title>Agenda</title>
+		<link rel="stylesheet" href="css/linearicons.css" />
 		<link href='css/bootstrap.min.css' rel='stylesheet'>
 		<link href='css/fullcalendar.min.css' rel='stylesheet' />
 		<link href='css/fullcalendar.print.min.css' rel='stylesheet' media='print' />
@@ -17,6 +51,14 @@ $resultado_events = mysqli_query($conn, $result_events);
 		<script src='js/moment.min.js'></script>
 		<script src='js/fullcalendar.min.js'></script>
 		<script src='locale/pt-br.js'></script>
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/nice-select.css" />
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+  <link rel="stylesheet" href="css/themify-icons.css" />
+  <link rel="stylesheet" href="css/main.css" />
 		<script>
 			$(document).ready(function() {
 				$('#calendar').fullCalendar({
@@ -58,6 +100,7 @@ $resultado_events = mysqli_query($conn, $result_events);
 		</script>
 	</head>
 	<body>
+	<?php include 'components/header-menu.php' ?>
 
 		<div id='calendar'></div>
 
@@ -82,6 +125,10 @@ $resultado_events = mysqli_query($conn, $result_events);
 					</div>
 				</div>
 			</div>
+		</div>
+		<div id="foter">
+		
+		<?php include '../../components/footer.php' ?>
 		</div>
 	</body>
 </html>
