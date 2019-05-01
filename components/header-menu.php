@@ -1,4 +1,8 @@
-<?php session_start(); ?>
+<?php 
+if(!isset($_SESSION)) { 
+    session_start(); 
+}
+?>
 <header class="header-area">
 <style type="text/css">
   #cursor-do-icone{

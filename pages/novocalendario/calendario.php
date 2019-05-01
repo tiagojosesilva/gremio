@@ -1,7 +1,7 @@
 <?php
-include_once("conexao.php");
-$result_events = "SELECT id, title, color, start, end FROM events";
-$resultado_events = mysqli_query($conn, $result_events);
+include_once("../../php/conn.php");
+$result_events = $conn-> prepare("SELECT id, title, color, start, end FROM events");
+$result_events ->execute();
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -40,8 +40,7 @@ $resultado_events = mysqli_query($conn, $result_events);
 					},
 					events: [
 						<?php
-							while($row_events = mysqli_fetch_array($resultado_events)){
-								?>
+							while($row_events = $result_events->fetch()){ ?>
 								{
 								id: '<?php echo $row_events['id']; ?>',
 								title: '<?php echo $row_events['title']; ?>',
