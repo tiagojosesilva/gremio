@@ -1,13 +1,15 @@
-const senha = document.querySelector('.senha');
-const senhaCF = document.querySelector('.senhaCF');
+const senha = document.querySelector('#senha');
+const senhaCF = document.querySelector('#senhaCF');
 const btnSubmit = document.querySelector('.btnSubmit');
 const check = document.querySelector('.botao-check');
 
 senhaCF.addEventListener('blur', (event) => {
 	if(senhaCF.value != senha.value) {
 		senhaCF.style.background = 'tomato';
+		senha.style.background = 'tomato';
 	} else {
 		senhaCF.style.background = 'white';
+		senha.style.background = 'white';
 	}
 
 });

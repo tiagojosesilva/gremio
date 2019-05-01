@@ -1,4 +1,10 @@
-<?php session_start() ?>
+<?php 
+session_start();
+if (isset($_SESSION['id'])) {
+    header('location: ../index.php');
+    exit();
+} 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,10 +33,12 @@
           <div class="form-row">
             <div class="form-group col-md-6">
               <?php
-              if (isset($_SESSION['erroLogin'])) {
-                echo $_SESSION['erroLogin'];
-              }
-              ?>
+              if (isset($_SESSION['senha_incorreta'])) { ?>
+                <label style="color: red">Senha incorreta</label>
+              <?php } unset($_SESSION['senha_incorreta']); 
+              if (isset($_SESSION['usuario_nao_existe'])) { ?>
+                <label style="color: red">Usuário não existe</label>
+              <?php } unset($_SESSION['usuario_nao_existe']); ?>
               <input type="text" id="login" class="form-control" name="matricula" placeholder="matricula">
             </div>
             <div class="form-group col-md-7">

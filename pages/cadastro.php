@@ -51,11 +51,11 @@
             <div class="form-group col-md-6">
               <label for="inputNome">Senha</label>
 
-              <input type="password" class="form-control" id="inputNome" placeholder="Senha" name="senha">
+              <input type="password" class="form-control" id="senha" placeholder="Senha" name="senha">
             </div>
             <div class="form-group col-md-6">
               <label for="inputCPF">Confirmar senha</label>
-              <input type="password" class="form-control" id="inputCPF" placeholder="Confirmar senha" name="confirmarsenha">
+              <input type="password" class="form-control" id="senhaCF" placeholder="Confirmar senha" name="confirmarsenha">
             </div>
           </div>
            

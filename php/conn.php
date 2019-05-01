@@ -1,6 +1,6 @@
 <?php 
-$dbuser = "root";
-$dbpw = "ifpe";
+$dbuser = "gremio";
+$dbpw = "admin";
 try {
   $conn = new PDO('mysql:host=localhost;dbname=gremio', $dbuser, $dbpw);
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

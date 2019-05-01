@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <header class="header-area">
 <style type="text/css">
   #cursor-do-icone{
@@ -14,6 +15,7 @@
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Categorias
               </a>
+              
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="../pages/sobre.php">Sobre</a>
                 <a class="dropdown-item" href="../pages/gallery.php">Galeria</a>
@@ -56,29 +58,37 @@
                 </li>               
              
                 <li class="nav-item">
+                  <?php if (isset($_SESSION['id'])) { ?>
+                  <a href="" class="nav-link"><?=$_SESSION['nome']; ?></a>
+                <?php } else{?>
                   <a class="nav-link" href="../pages/cadastro.php">Criar conta</a>
+                <?php } ?>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/login.php">Login</a>
-                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+                  <?php if (isset($_SESSION['id'])) { ?>
+                    <a href="../php/logout.php" class="nav-link">Sair</a>
+                <?php } else{ ?>
+                    <a class="nav-link" href="../pages/login.php">Login</a>
+                <?php } ?>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </li>
               </ul>
             </div>
