@@ -16,8 +16,23 @@ Backtrace:
 /Library/Ruby/Gems/2.3.0/gems/sass-3.6.0/bin/sass:13:in `<top (required)>'
 /usr/local/bin/sass:22:in `load'
 /usr/local/bin/sass:22:in `<main>'
-*/
 body:before {
   white-space: pre;
   font-family: monospace;
   content: "Errno::ENOENT: No such file or directory @ rb_sysopen - scss/style.scss"; }
+*/
+input.red{
+	border: solid 1px red;
+	background: tomato;
+}
+input#btn-login{
+	height: 40px;
+}
+div#alert_senha{
+	color: red; 
+	display: none;
+}
+div#alert_matricula{
+	color: red; 
+	display: none;
+}

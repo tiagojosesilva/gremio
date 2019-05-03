@@ -5,10 +5,42 @@ require_once 'conn.php';
 
 $dados = filter_input_array(INPUT_POST);
 
+if($dados['senha']!=$dados['confirmarsenha']){
+	echo 'senhas diferentes';
+	exit();
+}
+
+$queryEmail = $conn->prepare("SELECT * FROM usuarios");
+$queryEmail->execute();
+$result = $queryEmail->fetchAll();
+foreach ($result as $value) {
+	if ($value['email']==$dados['email']) {
+		echo 'email ja existe';
+		exit();
+	}
+	else if($value['matricula']==$dados['matricula']){
+		echo 'matricula ja existe';
+		exit();
+	}
+	else {
+		
+		$queryInsert = $conn->prepare("INSERT INTO usuarios(nome, sobrenome, cidade, matricula, email, senha) VALUES (:nome,:sobrenome,:cidade, :matricula, :email, :senha)");
+		$queryInsert->bindParam(':nome', $dados['nome']);
+		$queryInsert->bindParam(':sobrenome', $dados['sobrenome']);
+		$queryInsert->bindParam(':cidade', $dados['cidade']);
+		$queryInsert->bindParam(':matricula', $dados['matricula']);
+		$queryInsert->bindParam(':email', $dados['email']);
+		$queryInsert->bindParam(':senha', md5($dados['senha']));
+		$queryInsert->execute();
+		$_SESSION['cadastrado_sucesso']=true;
+		exit();
+	}
+}
+
+
 /*
 $queryList = $conn->query("SELECT nome, email, matricula FROM usuarios");
 $queryList->execute();
-*/
 $queryEmail = $conn->prepare("SELECT * FROM usuarios WHERE email = :email");
 $queryEmail->bindParam(':email', $dados['email']);
 $queryEmail->execute();
@@ -44,4 +76,5 @@ if (sizeof($data_email) > 0) {
 	
 	header('location: ../pages/login.php');
 }
+*/
  ?>

@@ -17,18 +17,14 @@ foreach ($resultado as $value) {
 	    $_SESSION['email'] = $value['email'];
 	    $_SESSION['cidade'] = $value['cidade'];
 	    $_SESSION['matricula'] = $value['matricula'];
-	    header('location: ../index.php');
+	    echo 'logado';
 	}
 	elseif ($value['matricula']==$dados['matricula'] && $value['senha']!=$senha) {
-		$_SESSION['senha_incorreta'] = true;
-		header('location: ../pages/login.php');
-		exit();
+		echo 'senha incorreta';
 	}
 	else{
-		$_SESSION['usuario_nao_existe'] = true;
-		header('location: ../pages/login.php');
+		echo 'matricula nao existe';
 	}
 }
-
 
 ?>

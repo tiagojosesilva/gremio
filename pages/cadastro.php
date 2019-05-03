@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="../css/themify-icons.css" />
   <link rel="stylesheet" href="../css/main.css" />
   <link rel="stylesheet" href="../css/flex.css">
-
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/jquery.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 </head>
 <body>
@@ -26,7 +27,7 @@
         <span class="h6 d-block">Crie sua conta</span>
       </div>
       <div class="row justify-content-center">
-        <form class="col-lg-6" action="../php/addUser.php" method="POST">
+        <form class="col-lg-6" action="" method="POST">
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="inputNome">Nome</label>
@@ -78,5 +79,47 @@
     </section>
   <?php include '../components/footer.php' ?>
   <script src="../js/senha.js"></script>
+  <script>
+        $(document).ready(function(){
+            $("form.col-lg-6").submit(function(e){
+                e.preventDefault();
+                var dados = $(this).serialize();
+                $.ajax({
+                    url: "../php/addUser.php",
+                    type: 'POST',
+                    data: dados,
+                    success: function(retorno){
+                        if(retorno=='matricula ja existe'){
+                            $("input#senhaCF").removeClass('red'); 
+                            $("input#senha").removeClass('red');
+                            $("input#inputEmail").removeClass('red');
+                            alert(retorno);
+                             $("#inputSenha").addClass('red'); 
+                        }
+                        else if(retorno=='email ja existe'){
+                            $("input#senhaCF").removeClass('red'); 
+                            $("input#senha").removeClass('red');
+                            $("input#inputSenha").removeClass('red');
+                            alert(retorno);
+                            $("#inputEmail").addClass('red');
+
+                        }
+                        else if(retorno=='senhas diferentes'){
+                            window.location.href='../index.php';
+                            $("input#inputSenha").removeClass('red');
+                            $("input#inputEmail").removeClass('red');
+                            alert(retorno);
+                            $("input#senhaCF").addClass('red'); 
+                            $("input#senha").addClass('red');
+                        }
+                        else{
+                            window.location.href='login.php';
+                        }
+                    }
+
+                });
+            });
+        });
+  </script>
 </body>
 </html>
