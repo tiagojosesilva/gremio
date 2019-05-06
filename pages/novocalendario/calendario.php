@@ -38,6 +38,15 @@ $result_events ->execute();
 						return false;
 
 					},
+					selectable: true,
+					selectHelper: true,
+					select: function(start, end){
+						$('#cadastrar #start').val(moment(start)).format(('DD/MM/YYYY HH:mm:ss'));
+						$('#cadastrar #end').val(moment(end)).format(('DD/MM/YYYY HH:mm:ss'));
+						$('#cadastrar').modal('show');
+							
+					},
+
 					events: [
 						<?php
 							while($row_events = $result_events->fetch()){ ?>
