@@ -1,11 +1,17 @@
 <div class="col-lg-4 sidebar-widgets">
           <div class="widget-wrap">
             <div class="single-sidebar-widget search-widget">
-              <form class="search-form" action="#">
-                <input placeholder="Pesquise notícias" name="search" type="text" onfocus="this.placeholder = ''"
-                  onblur="this.placeholder = 'Search Posts'">
-                <button type="submit"><i class="fa fa-search"></i></button>
-              </form>
+          <form name="form1" method="post" action="">
+            <label>
+                <input name="cxnome" type="text" id="cxnome" value="" size="30">
+            </label>
+            <label></label>
+  
+            <label>
+            &nbsp;&nbsp;
+                  <input type="submit" name="pesquisar" value="Pesquisar">
+            </label>
+          </form>
             </div>
             <div class="single-sidebar-widget popular-post-widget">
               <h4 class="popular-title">Últimas postagens</h4>
