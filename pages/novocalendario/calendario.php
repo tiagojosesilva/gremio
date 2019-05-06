@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 include_once("../../php/conn.php");
 $result_events = $conn-> prepare("SELECT id, title, color, start, end FROM events");
 $result_events ->execute();
@@ -65,9 +67,9 @@ $result_events ->execute();
 
 			//Máscara para o campo data e hora
 			function DataHora(evento, objeto){
-				var keypress=(window,event)?event.keyCode:evento.which;
-				campo=eval (objeto);
-				if (campo.value== '00/00/0000 00:00:00'){
+				var keypress=(window.event)?event.keyCode:evento.which;
+				campo = eval (objeto);
+				if (campo.value == '00/00/0000 00:00:00'){
 					campo.value=""
 				}
 
@@ -101,7 +103,20 @@ $result_events ->execute();
 	</head>
 	<body>
 
+		<div class="container">
+			<div class="page-header">
+				<h1>Agenda</h1>
+			</div>
+
+			<?php
+				if(isset($_SESSION['msg'])){
+					echo $_SESSION['msg'];
+					unset($_SESSION['msg']);
+				}
+			?>
+
 		<div id='calendar'></div>
+		</div>
 
 		<div class="modal fade" id="visualizar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" data-backdrop="static">
 			<div class="modal-dialog" role="document">
@@ -129,15 +144,15 @@ $result_events ->execute();
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title text-center">Cadastrar</h4>
+						<h4 class="modal-title text-center">Cadastrar Evento</h4>
 					</div>
 					<div class="modal-body">
 
-						<form class="form-horizontal">
+						<form class="form-horizontal" method="POST" action= "proc_cad_evento.php" >
   							<div class="form-group">
    							 <label for="inputEmail3" class="col-sm-2 control-label">Titulo</label>
    									 <div class="col-sm-10">
-     								 <input type="text" class="form-control" name="titulo" placeholder="Titulo de Evento">
+     								 <input type="text" class="form-control" name="title" placeholder="Titulo de Evento">
    									 </div>
   							</div>
   							<div class="form-group">
@@ -167,7 +182,7 @@ $result_events ->execute();
   							<div class="form-group">
    							 <label for="inputEmail3" class="col-sm-2 control-label">Data Final</label>
    									 <div class="col-sm-10">
-     								 <input type="text" class="form-control" name="end" id="end">
+     								 <input type="text" class="form-control" name="end" id="end" onKeyPress="DataHora(event, this)">
    									 </div>
   							</div>
 							 
