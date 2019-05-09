@@ -1,7 +1,9 @@
 <?php
-session_start();
 
+session_start();
 include_once("../../php/conn.php");
+
+
 $result_events = $conn-> prepare("SELECT id, title, color, start, end FROM events");
 $result_events ->execute();
 ?>
@@ -148,7 +150,7 @@ $result_events ->execute();
 					</div>
 					<div class="modal-body">
 
-						<form class="form-horizontal" method="POST" action= "proc_cad_evento.php" >
+						<form class="form-horizontal" method="POST" action= "" >
   							<div class="form-group">
    							 <label for="inputEmail3" class="col-sm-2 control-label">Titulo</label>
    									 <div class="col-sm-10">
@@ -176,13 +178,13 @@ $result_events ->execute();
   							<div class="form-group">
    							 <label for="inputEmail3" class="col-sm-2 control-label">Data Inicial</label>
    									 <div class="col-sm-10">
-     								 <input type="text" class="form-control" name="start" id="start" onkeypress="DataHora(event, this)">
+     								 <input type="date" class="form-control" name="start" id="start" >
    									 </div>
   							</div>
   							<div class="form-group">
    							 <label for="inputEmail3" class="col-sm-2 control-label">Data Final</label>
    									 <div class="col-sm-10">
-     								 <input type="text" class="form-control" name="end" id="end" onKeyPress="DataHora(event, this)">
+     								 <input type="date" class="form-control" name="end" id="end">
    									 </div>
   							</div>
 							 
@@ -197,5 +199,31 @@ $result_events ->execute();
 				</div>
 			</div>
 		</div>
+		<script type="text/javascript"> 
+		$(document).ready(function() {
+			
+			$('.btn, btn-success').click(function(event) {
+				event.preventDefault();
+				var title = $('input[name=title]').val();
+				var start = $('input[name=start]').val();
+				var end = $('input[name=end]').val();
+				var color = $('select[name=color]').val();
+				//var dados = $('.form-horizontal').serialize();
+				$.ajax({
+					url: 'proc_cad_evento.php',
+					type: 'POST',
+					data: {title: title, start: start, end: end, color: color},
+					success: function(retorno){
+						if (retorno == 'OK') {
+							//alert('OK');
+							location.reload();
+						}
+					}
+				});
+				
+				
+			});
+		});
+		</script>
 	</body>
 </html>
