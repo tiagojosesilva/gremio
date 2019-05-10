@@ -25,13 +25,13 @@ INSERT INTO `events` (`id`, `title`, `color`, `start`, `end`) VALUES
 (4, 'Evento', '#DF0101', '2019-04-26 12:00:00', '2019-04-26 13:24:00');
 
 CREATE TABLE noticias (
-id int(5) NOT NULL auto_increment,
-data date NOT NULL,
-titulo_not char(100) NOT NULL,
-sbtl_not char(200),
+id_not int NOT NULL auto_increment PRIMARY KEY,
+data_not date NOT NULL,
+titulo_not varchar(100) NOT NULL,
+sbtl_not varchar(200),
 desc_not text NOT NULL,
-ver char(3) DEFAULT 'off',
-PRIMARY KEY (id),
-UNIQUE id (id)
+img_not varchar(60) NOT NULL
 );
+
+
  
