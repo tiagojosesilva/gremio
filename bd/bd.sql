@@ -13,7 +13,7 @@ create table usuarios  (
 ) default charset=utf8; 
 
 CREATE TABLE `events` (
-  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `id` int(11) not null PRIMARY KEY AUTO_INCREMENT,
   `title` varchar(220) DEFAULT NULL,
   `color` varchar(10) DEFAULT NULL,
   `start` datetime DEFAULT NULL,
@@ -24,4 +24,14 @@ INSERT INTO `events` (`id`, `title`, `color`, `start`, `end`) VALUES
 (3, 'Jogos', '#7401DF', '2019-04-29 12:00:00', '2019-04-29 17:00:00'),
 (4, 'Evento', '#DF0101', '2019-04-26 12:00:00', '2019-04-26 13:24:00');
 
+CREATE TABLE noticias (
+id int(5) NOT NULL auto_increment,
+data date NOT NULL,
+titulo_not char(100) NOT NULL,
+sbtl_not char(200),
+desc_not text NOT NULL,
+ver char(3) DEFAULT 'off',
+PRIMARY KEY (id),
+UNIQUE id (id)
+);
  
