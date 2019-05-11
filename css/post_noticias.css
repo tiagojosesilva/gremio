@@ -1,0 +1,22 @@
+.container-titulo {
+  background: #FFF;
+  padding: 20px;
+  margin-bottom: 15px;
+  display: inline-block;
+  display: flex;
+  width: 100%;
+}
+
+.container-titulo > .input {
+  width: 100%;
+  padding: 10px;
+}
+
+.container-titulo > .botao {
+  background: #000;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  
+}
