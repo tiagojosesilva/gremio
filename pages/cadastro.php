@@ -38,17 +38,10 @@
               <input type="text" class="form-control" id="inputCPF" placeholder="Sobrenome" name="sobrenome">
             </div>
             <div class="form-group col-md-12">
-              <label for="inputCidade">Cidade</label>
+              <label for="inputCidade">Email</label>
               <input type="text" class="form-control" id="inputCidade" name="cidade">
             </div>
-            <div class="form-group col-md-6">
-              <label for="inputEmail">Email</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="Seu email" name="email">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="inputSenha">Número da matricula</label>
-              <input type="text" class="form-control" id="inputSenha" placeholder="Nº da matricula" name="matricula">
-            </div>
+
             <div class="form-group col-md-6">
               <label for="inputNome">Senha</label>
 

@@ -17,18 +17,11 @@ foreach ($result as $value) {
 	if ($value['email']==$dados['email']) {
 		echo 'email ja existe';
 		exit();
-	}
-	else if($value['matricula']==$dados['matricula']){
-		echo 'matricula ja existe';
-		exit();
-	}
-	else {
+	} else {
 		
-		$queryInsert = $conn->prepare("INSERT INTO usuarios(nome, sobrenome, cidade, matricula, email, senha) VALUES (:nome,:sobrenome,:cidade, :matricula, :email, :senha)");
+		$queryInsert = $conn->prepare("INSERT INTO usuarios(nome, sobrenome, email, senha) VALUES (:nome, :sobrenome,  :email, :senha)");
 		$queryInsert->bindParam(':nome', $dados['nome']);
 		$queryInsert->bindParam(':sobrenome', $dados['sobrenome']);
-		$queryInsert->bindParam(':cidade', $dados['cidade']);
-		$queryInsert->bindParam(':matricula', $dados['matricula']);
 		$queryInsert->bindParam(':email', $dados['email']);
 		$queryInsert->bindParam(':senha', md5($dados['senha']));
 		$queryInsert->execute();
