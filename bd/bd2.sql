@@ -14,13 +14,13 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 -- -----------------------------------------------------
 -- Schema mydb
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
-USE `mydb` ;
+CREATE SCHEMA IF NOT EXISTS `gremio` DEFAULT CHARACTER SET utf8 ;
+USE `gremio` ;
 
 -- -----------------------------------------------------
--- Table `mydb`.`USUARIO`
+-- Table `gremio`.`USUARIO`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`USUARIO` (
+CREATE TABLE IF NOT EXISTS `gremio`.`USUARIO` (
   `ID` INT NOT NULL AUTO_INCREMENT,
   `NOME` VARCHAR(45) NOT NULL,
   `SOBRENOME` VARCHAR(45) NOT NULL,
@@ -31,9 +31,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`PUBLICACAO`
+-- Table `gremio`.`PUBLICACAO`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`PUBLICACAO` (
+CREATE TABLE IF NOT EXISTS `gremio`.`PUBLICACAO` (
   `IMG_PUB` VARCHAR(45) NOT NULL,
   `DESC_PUB` VARCHAR(45) NOT NULL,
   `TITULO_PUB` VARCHAR(30) NOT NULL,
@@ -45,16 +45,16 @@ CREATE TABLE IF NOT EXISTS `mydb`.`PUBLICACAO` (
   INDEX `fk_PUBLICACAO_USUARIO1_idx` (`USUARIO_ID` ASC),
   CONSTRAINT `fk_PUBLICACAO_USUARIO1`
     FOREIGN KEY (`USUARIO_ID`)
-    REFERENCES `mydb`.`USUARIO` (`ID`)
+    REFERENCES `gremio`.`USUARIO` (`ID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`COMENTARIO`
+-- Table `gremio`.`COMENTARIO`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`COMENTARIO` (
+CREATE TABLE IF NOT EXISTS `gremio`.`COMENTARIO` (
   `ID_COM` INT NOT NULL AUTO_INCREMENT,
   `TEXTO` LONGTEXT NOT NULL,
   `DATA` DATE NOT NULL,
@@ -65,12 +65,12 @@ CREATE TABLE IF NOT EXISTS `mydb`.`COMENTARIO` (
   INDEX `fk_COMENTARIO_PUBLICACAO1_idx` (`PUBLICACAO_ID_PUB` ASC),
   CONSTRAINT `fk_COMENTARIO_USUARIO1`
     FOREIGN KEY (`USUARIO_ID`)
-    REFERENCES `mydb`.`USUARIO` (`ID`)
+    REFERENCES `gremio`.`USUARIO` (`ID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_COMENTARIO_PUBLICACAO1`
     FOREIGN KEY (`PUBLICACAO_ID_PUB`)
-    REFERENCES `mydb`.`PUBLICACAO` (`ID_PUB`)
+    REFERENCES `gremio`.`PUBLICACAO` (`ID_PUB`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;

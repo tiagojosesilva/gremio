@@ -1,4 +1,5 @@
 <?php session_start();?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,29 +28,29 @@
         <span class="h6 d-block">Crie sua conta</span>
       </div>
       <div class="row justify-content-center">
-        <form class="col-lg-6" action="" method="POST">
+        <form class="col-lg-6" action="../php/banco/cadastrar.php" method="POST">
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="inputNome">Nome</label>
-              <input type="text" class="form-control" id="inputNome" placeholder="Nome" name="nome">
+              <input type="text" class="form-control" id="inputNome" placeholder="Nome" name="NOME">
             </div>
             <div class="form-group col-md-6">
               <label for="inputCPF">Sobrenome</label>
-              <input type="text" class="form-control" id="inputCPF" placeholder="Sobrenome" name="sobrenome">
+              <input type="text" class="form-control" id="inputCPF" placeholder="Sobrenome" name="SOBRENOME">
             </div>
             <div class="form-group col-md-12">
               <label for="inputCidade">Email</label>
-              <input type="text" class="form-control" id="inputCidade" name="cidade">
+              <input type="text" class="form-control" id="inputCidade" name="EMAIL">
             </div>
 
             <div class="form-group col-md-6">
               <label for="inputNome">Senha</label>
 
-              <input type="password" class="form-control" id="senha" placeholder="Senha" name="senha">
+              <input type="password" class="form-control" id="senha" placeholder="SENHA" name="senha">
             </div>
             <div class="form-group col-md-6">
               <label for="inputCPF">Confirmar senha</label>
-              <input type="password" class="form-control" id="senhaCF" placeholder="Confirmar senha" name="confirmarsenha">
+              <input type="password" class="form-control" id="senhaCF" placeholder="Confirmar senha" name="CONFIRMARSENHA">
             </div>
           </div>
            
@@ -72,47 +73,6 @@
     </section>
   <?php include '../components/footer.php' ?>
   <script src="../js/senha.js"></script>
-  <script>
-        $(document).ready(function(){
-            $("form.col-lg-6").submit(function(e){
-                e.preventDefault();
-                var dados = $(this).serialize();
-                $.ajax({
-                    url: "../php/addUser.php",
-                    type: 'POST',
-                    data: dados,
-                    success: function(retorno){
-                        if(retorno=='matricula ja existe'){
-                            $("input#senhaCF").removeClass('red'); 
-                            $("input#senha").removeClass('red');
-                            $("input#inputEmail").removeClass('red');
-                            alert(retorno);
-                             $("#inputSenha").addClass('red'); 
-                        }
-                        else if(retorno=='email ja existe'){
-                            $("input#senhaCF").removeClass('red'); 
-                            $("input#senha").removeClass('red');
-                            $("input#inputSenha").removeClass('red');
-                            alert(retorno);
-                            $("#inputEmail").addClass('red');
-
-                        }
-                        else if(retorno=='senhas diferentes'){
-                            window.location.href='../index.php';
-                            $("input#inputSenha").removeClass('red');
-                            $("input#inputEmail").removeClass('red');
-                            alert(retorno);
-                            $("input#senhaCF").addClass('red'); 
-                            $("input#senha").addClass('red');
-                        }
-                        else{
-                            window.location.href='login.php';
-                        }
-                    }
-
-                });
-            });
-        });
-  </script>
+  
 </body>
 </html>
