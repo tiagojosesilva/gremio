@@ -10,7 +10,7 @@ if($dados['senha']!=$dados['confirmarsenha']){
 	exit();
 }
 
-$queryEmail = $conn->prepare("SELECT * FROM usuarios");
+$queryEmail = $conn->prepare("SELECT * FROM USUARIO");
 $queryEmail->execute();
 $result = $queryEmail->fetchAll();
 foreach ($result as $value) {
@@ -19,7 +19,7 @@ foreach ($result as $value) {
 		exit();
 	} else {
 		
-		$queryInsert = $conn->prepare("INSERT INTO usuarios(nome, sobrenome, email, senha) VALUES (:nome, :sobrenome,  :email, :senha)");
+		$queryInsert = $conn->prepare("INSERT INTO USUARIO(nome, sobrenome, email, senha) VALUES (:nome, :sobrenome,  :email, :senha)");
 		$queryInsert->bindParam(':nome', $dados['nome']);
 		$queryInsert->bindParam(':sobrenome', $dados['sobrenome']);
 		$queryInsert->bindParam(':email', $dados['email']);

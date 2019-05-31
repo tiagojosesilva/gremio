@@ -43,10 +43,10 @@ Class Banco {
     if($this->checarEmail($dados["EMAIL"])) {
       
       $insert = $this->pdo->prepare("INSERT INTO USUARIO (NOME, SOBRENOME, SENHA, EMAIL) VALUES (:nome, :sobrenome, :senha, :email)");
-      $insert->bindValue(":nome", $_POST["NOME"]);
-      $insert->bindValue(":sobrenome", $_POST["SOBRENOME"]);
-      $insert->bindValue(":senha", $_POST["SENHA"]);
-      $insert->bindValue(":email", $_POST["EMAIL"]);
+      $insert->bindValue(":nome", $dados['NOME']);
+      $insert->bindValue(":sobrenome", $dados['SOBRENOME']);
+      $insert->bindValue(":senha", $dados['SENHA']);
+      $insert->bindValue(":email", $dados['EMAIL']);
       $insert->execute();
       return true;
     } else {

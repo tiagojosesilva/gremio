@@ -46,7 +46,7 @@
             <div class="form-group col-md-6">
               <label for="inputNome">Senha</label>
 
-              <input type="password" class="form-control" id="senha" placeholder="SENHA" name="senha">
+              <input type="password" class="form-control" id="senha" placeholder="senha" name="SENHA">
             </div>
             <div class="form-group col-md-6">
               <label for="inputCPF">Confirmar senha</label>
