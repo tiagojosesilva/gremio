@@ -54,6 +54,7 @@ ENGINE = InnoDB;
 CREATE TABLE if not exists `gremio`. `events` (
   `id` int NOT NULL auto_increment,
   `title` varchar(220) DEFAULT NULL,
+  `local` varchar(50) DEFAULT NULL,
   `color` varchar(10) DEFAULT NULL,
   `start` datetime DEFAULT NULL,
   `end` datetime DEFAULT NULL,
