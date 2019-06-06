@@ -1,11 +1,8 @@
 <?php
-
 session_start();
-include_once("../../php/conn.php");
-
-
-$result_events = $conn-> prepare("SELECT id, title, color, start, end FROM events");
-$result_events ->execute();
+include_once("conexao.php");
+$result_events = "SELECT id, title, local, color, start, end FROM events";
+$resultado_events = mysqli_query($conn, $result_events);
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
