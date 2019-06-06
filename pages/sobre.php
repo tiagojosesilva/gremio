@@ -29,65 +29,67 @@
       apresentar uma série de direitos e deveres que competem ao estudante, assim como promover eventos com objetivos de
       apredizagem cultural, social, política e esportiva. Esperamos que seja de grande utilidade a aplicação deste site
       para todos os seus usuários.</p>
+
+    
     <div class="separador"></div>
-    <p>Distribuição do grêmio</p>
-    <div class="segundo-separador"></div>
     <p style="font-size: 28px; margin-top: 30px; ">Cargos Obrigatórios</p>
+    <div class="segundo-separador"></div>
   </div>
 
+  <div style="text-align:center">
   <div class="equipe">
     <div class="pessoas">
-      <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
+      <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="../img/logo.jpeg" alt=""
         class=" ">
-      <div style="width: 200px; background-color:  black;  height: 3px;"></div>
+      <div style="width: 200% auto; background-color:  black;  height: 3% auto;"></div>
       <p class="nome">Isadora Oliveira</p>
-      <p class="cargo" style="line-height: 10%;">Presidente</p>
+      <p class="cargo" style="line-height: 10% auto;">Presidente</p>
       <p class="email">isadoragrabrielle123@gmail.com</p>
-      <div style="width: 300px; background-color:  black; height: 3px;"></div>
+      <div style="width: 300% auto; background-color:  black; height: 3% auto;"></div>
     </div>
 
     <div class="pessoas">
-      <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
+      <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/logo.jpeg" alt=""
         class="">
-      <div style="width: 200px; background-color:  black; height: 3px;"></div>
+      <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
       <p class="nome">Marcela Cristina</p>
       <p class="cargo" style="text-align: center;">Vice-Presidente</p>
       <p class="email">marcelacristinarm96@gmail.com</p>
-      <div style="width: 300px; background-color:  black;  height: 3px;"></div>
+      <div style="width: 300% auto; background-color:  black;  height: 3% auto;"></div>
     </div>
 
     <div class="pessoas">
-      <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
+      <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/logo.jpeg" alt=""
         class="">
-      <div style="width: 200px; background-color:  black;  height: 3px;"></div>
+      <div style="width: 200% auto; background-color:  black;  height: 3% auto;"></div>
       <p class="nome">Karla Katarinne </p>
-      <p class="cargo" style="line-height: 10%;">Tesoureira</p>
+      <p class="cargo" style="line-height: 10% auto;">Tesoureira</p>
       <p class="email">katarinnekarla@gmail.com</p>
-      <div style="width: 300px; background-color:  black;  height: 3px;"></div>
+      <div style="width: 300% auto; background-color:  black;  height: 3% auto;"></div>
     </div>
 
     <div class="pessoas">
-      <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
+      <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/logo.jpeg" alt=""
         class="">
-      <div style="width: 200px; background-color:  black; height: 3px;"></div>
+      <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
       <p class="nome">Marco Silva </p>
       <p class="cargo" style="text-align: center;">Diretor Geral</p>
       <p class="email">@gmail.com</p>
-      <div style="width: 300px; background-color:  black;height: 3px;"></div>
+      <div style="width: 300% auto; background-color:  black;height: 3% auto;"></div>
     </div>
 
     <div class="pessoas">
-      <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
+      <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/logo.jpeg" alt=""
         class="">
-      <div style="width: 200px; background-color:  black;height: 3px;"></div>
+      <div style="width: 200% auto; background-color:  black;height: 3% auto;"></div>
       <p class="nome">Giovanna Fernandes</p>
-      <p class="cargo" style="line-height: 10%;">Suplente</p>
+      <p class="cargo" style="line-height: 10% auto;">Suplente</p>
       <p class="email">giovannafernandes134@gmail.com</p>
-      <div style="width: 300px; background-color:  black; height: 3px;"></div>
+      <div style="width: 300% auto; background-color:  black; height: 3% auto;"></div>
     </div>
+  </div>
 
-
-
+  <div>
     <div class="info">
       <div class="separador"></div>
       <p style="font-size: 28px; margin-top: 30px;">Cargos Facultativos</p>
@@ -97,62 +99,62 @@
     <div class="cargos-facultativos">
       <div class="equipe">
         <div class="pessoas">
-          <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
+          <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/logo.jpeg" alt=""
             class=" ">
-          <div style="width: 200px; background-color:  black; height: 3px;"></div>
+          <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
           <p class="nome">Kecia Ámavel</p>
           <p class="cargo" style="text-align: center;">Diretora de Cultura</p>
           <p class="email">@gmail.com</p>
-          <div style="width: 300px; background-color:  black; height: 3px;"></div>
+          <div style="width: 300% auto; background-color:  black; height: 3% auto;"></div>
         </div>
 
         <div class="pessoas">
-          <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/jessi.jpeg" alt=""
+          <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/jessi.jpeg" alt=""
             class="">
-          <div style="width: 200px; background-color:  black; height: 3px;"></div>
+          <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
           <p class="nome">Jessica Soares</p>
           <p class="cargo" style="text-align: center;">Diretora de Esportes</p>
           <p class="email">jessicalaylabezerra@gmail.com</p>
-          <div style="width: 300px; background-color:  black;  height: 3px;"></div>
+          <div style="width: 300% auto; background-color:  black;  height: 3% auto;"></div>
         </div>
 
         <div class="pessoas">
-          <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
+          <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/logo.jpeg" alt=""
             class="">
-          <div style="width: 200px; background-color:  black;  height: 3px;"></div>
+          <div style="width: 200% auto; background-color:  black;  height: 3% auto;"></div>
           <p class="nome">Jonisson Gomes </p>
           <p class="cargo" style="text-align: center;">Diretor de Ciência e Tecnologia</p>
           <p class="email">jonissonsportsempre@gmail.com</p>
-          <div style="width: 300px; background-color:  black;  height: 3px;"></div>
+          <div style="width: 300% auto; background-color:  black;  height: 3% auto;"></div>
         </div>
 
         <div class="pessoas">
-          <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 18px;" src="img/logo.jpeg" alt=""
+          <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 18px;" src="img/logo.jpeg" alt=""
             class="">
-          <div style="width: 200px; background-color:  black; height: 3px;"></div>
+          <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
           <p class="nome">Alex Guedes </p>
           <p class="cargo" style="text-align: center;">Diretor Social</p>
           </p>
           <p class="email">alex.p.guedes1610@gmail.com</p>
-          <div style="width: 300px; background-color:  black; height: 3px;  "></div>
+          <div style="width: 300% auto; background-color:  black; height: 3% auto;  "></div>
         </div>
         <div class="pessoas">
-          <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
+          <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/logo.jpeg" alt=""
             class="">
-          <div style="width: 200px; background-color:  black; height: 3px;"></div>
+          <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
           <p class="nome">Ricardo Felix</p>
           <p class="cargo" style="text-align: center;">Diretor de Meio Ambiente</p>
           <p class="email">ricardo30017@gmail.com</p>
-          <div style="width: 300px; background-color:  black; height: 3px;"></div>
+          <div style="width: 300% auto; background-color:  black; height: 3% auto;"></div>
         </div>
 
-        <div class="nicole">
-          <img style="border-radius: 50%; width: 200px; height: 200px; " src="img/logo.jpeg" alt="" class="">
-          <div style="width: 200px; background-color:  black; height: 3px;"></div>
+        <div class="pessoas">
+          <img style="border-radius: 50%; width: 200% auto; height: 200% auto; " src="img/logo.jpeg" alt="" class="">
+          <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
           <p class="nome">Nicole Pereira</p>
           <p class="cargo" style="text-align: center;">Suplente</p>
           <p class="email">@gmail.com</p>
-          <div style="width: 300px; background-color:  black; height: 3px;margin-bottom: 10px;"></div>
+          <div style="width: 300% auto; background-color:  black; height: 3% auto;margin-bottom: 10% auto;"></div>
 
         </div>
       </div>
@@ -169,9 +171,9 @@
 
     <div class="info">
       <div class="separador"></div>
-      <p style="text-shadow: 2px 3px rgba(0, 0, 0, 0.63);">
+      <p style="text-shadow: 2px 3% auto rgba(0, 0, 0, 0.63);">
+      <p style="font-size: 28px; margin-top: 30px;">Distribuição dos Desenvolvedores</p>
         <div class="segundo-separador"></div>
-        <p style="font-size: 28px; margin-top: 30px;">Distribuição dos Desenvolvedores</p>
       </p>
     </div>
 
@@ -179,101 +181,101 @@
   </div>
   <div class="equipe">
     <div class="pessoas">
-      <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
+      <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/logo.jpeg" alt=""
         class=" ">
-      <div style="width: 200px; background-color:  black;  height: 3px;"></div>
+      <div style="width: 200% auto; background-color:  black;  height: 3% auto;"></div>
       <p class="nome">Ana Beatriz</p>
       <p class="email">anabeatrizvianaa@gmail.com</p>
-      <div style="width: 300px; background-color:  black; height: 3px;"></div>
+      <div style="width: 300% auto; background-color:  black; height: 3% auto;"></div>
     </div>
 
     <div class="pessoas">
-      <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
+      <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/logo.jpeg" alt=""
         class="">
-      <div style="width: 200px; background-color:  black; height: 3px;"></div>
+      <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
       <p class="nome">Marcela Moura</p>
       <p class="email">marcelacristinarm96@gmail.com</p>
-      <div style="width: 300px; background-color:  black;  height: 3px;"></div>
+      <div style="width: 300% auto; background-color:  black;  height: 3% auto;"></div>
     </div>
 
     <div class="pessoas">
-      <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/vini.jpeg" alt=""
+      <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/vini.jpeg" alt=""
         class="">
-      <div style="width: 200px; background-color:  black;  height: 3px;"></div>
+      <div style="width: 200% auto; background-color:  black;  height: 3% auto;"></div>
       <p class="nome">Vinícius Farias</p>
       <p class="email">vinicinho1237@gmail.com</p>
-      <div style="width: 300px; background-color:  black;  height: 3px;"></div>
+      <div style="width: 300% auto; background-color:  black;  height: 3% auto;"></div>
     </div>
 
     <div class="pessoas">
-      <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/gui.jpeg" alt=""
+      <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/gui.jpeg" alt=""
         class="">
-      <div style="width: 200px; background-color:  black; height: 3px;"></div>
+      <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
       <p class="nome">Guilherme Silva</p>
       <p class="email">gui.gcs.13@gmail.com</p>
-      <div style="width: 300px; background-color:  black; height: 3px;"></div>
+      <div style="width: 300% auto; background-color:  black; height: 3% auto;"></div>
     </div>
     <div class="pessoas">
-      <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
+      <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/logo.jpeg" alt=""
         class="">
-      <div style="width: 200px; background-color:  black; height: 3px;"></div>
+      <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
       <p class="nome">Hugo Starpp</p>
       <p class="email">hugoalvesstarpp@gmail.com</p>
-      <div style="width: 300px; background-color:  black; height: 3px;"></div>
+      <div style="width: 300% auto; background-color:  black; height: 3% auto;"></div>
     </div>
-    <div class="equipe">
+    
       <div class="pessoas">
-        <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/may.jpg" alt=""
+        <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/may.jpg" alt=""
           class=" ">
-        <div style="width: 200px; background-color:  black;  height: 3px;"></div>
+        <div style="width: 200% auto; background-color:  black;  height: 3% auto;"></div>
         <p class="nome">Maíra Lima</p>
         <p class="email">maylima816@gmail.com</p>
-        <div style="width: 300px; background-color:  black; height: 3px;"></div>
+        <div style="width: 300% auto; background-color:  black; height: 3% auto;"></div>
       </div>
 
       <div class="pessoas">
-        <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/berg.jpeg" alt=""
+        <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/berg.jpeg" alt=""
           class="">
-        <div style="width: 200px; background-color:  black; height: 3px;"></div>
+        <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
         <p class="nome">Eriberg Pacheco</p>
         <p class="email">@gmail.com</p>
-        <div style="width: 300px; background-color:  black; height: 3px;"></div>
+        <div style="width: 300% auto; background-color:  black; height: 3% auto;"></div>
       </div>
 
       <div class="pessoas">
-        <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/wavi.jpeg" alt=""
+        <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/wavi.jpeg" alt=""
           class="">
-        <div style="width: 200px; background-color:  black;  height: 3px;"></div>
+        <div style="width: 200% auto; background-color:  black;  height: 3% auto;"></div>
         <p class="nome">Wanillson Nascimento</p>
         <p class="email">@gmail.com</p>
-        <div style="width: 300px; background-color:  black;  height: 3px;"></div>
+        <div style="width: 300% auto; background-color:  black;  height: 3% auto;"></div>
       </div>
 
       <div class="pessoas">
-        <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
-          class="">
-        <div style="width: 200px; background-color:  black; height: 3px;"></div>
+        <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/logo.jpeg" alt="" class="">
+        <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
         <p class="nome">Alex Guedes</p>
         <p class="email">alex.p.guedes1610@gmail.com</p>
-        <div style="width: 300px; background-color:  black; height: 3px;"></div>
+        <div style="width: 300% auto; background-color:  black; height: 3% auto;"></div>
       </div>
       <div class="pessoas">
-        <img style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;" src="img/logo.jpeg" alt=""
+        <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-bottom: 10% auto;" src="img/logo.jpeg" alt=""
           class="">
-        <div style="width: 200px; background-color:  black; height: 3px;"></div>
+        <div style="width: 200% auto; background-color:  black; height: 3% auto;"></div>
         <p class="nome">Tiago Silva</p>
         <p class="email">tiiagojjose@gmail.com</p>
-        <div style="width: 300px; background-color:  black; height: 3px;"></div>
+        <div style="width: 300% auto; background-color:  black; height: 3% auto;"></div>
       </div>
-      <div class="nicole">
-        <img style="border-radius: 50%; width: 200px; height: 200px; margin-left: 50px; margin-bottom: 10px;"
+      <div class="pessoas">
+        <img style="border-radius: 50%; width: 200% auto; height: 200% auto; margin-left: 50px; margin-bottom: 10% auto;"
           src="img/logo.jpeg" alt="">
-        <div style="width: 200px; background-color:  black; height: 3px; "></div>
+        <div style="width: 200% auto; background-color:  black; height: 3% auto; "></div>
         <p class="nome">Lucas Felinto</p>
         <p class="email">elucasfelinto@gmail.com</p>
-        <div style="width: 300px; background-color:  black; height: 3px; "></div>
+        <div style="width: 300% auto; background-color:  black; height: 3% auto; "></div>
       </div>
-
+  </div>
+</div>
    <!--    <div class="container">
         <p class="h6 mb-4">Faça download do Estatuto do Grêmio.</p>
         <a href="download/acme-doc-2.0.1.pdf" download="Estatuto-gremio.pdf">
