@@ -5,6 +5,7 @@ include_once("../../php/conn.php");
 
 
 $title = filter_input(INPUT_POST, 'title', FILTER_SANITIZE_STRING);
+$local = filter_input(INPUT_POST, 'local', FILTER_SANITIZE_STRING);
 $color = filter_input(INPUT_POST, 'color', FILTER_SANITIZE_STRING);
 $start = filter_input(INPUT_POST, 'start', FILTER_SANITIZE_STRING);
 $end = filter_input(INPUT_POST, 'end', FILTER_SANITIZE_STRING);
