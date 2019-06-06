@@ -24,3 +24,20 @@ if(!empty($id) && !empty($title) && !empty($local) && !empty($color) && !empty($
 	$data_sem_barra = array_reverse(explode("/", $date));
 	$data_sem_barra = implode("-", $data_sem_barra);
 	$end_sem_barra = $data_sem_barra . " " . $hora;
+	
+	$result_events = "UPDATE events SET title='$title', local='$local', color='$color', start='$start_sem_barra', end='$end_sem_barra' WHERE id='$id'"; 
+	$resultado_events = mysqli_query($conn, $result_events);
+	
+	//Verificar se alterou no banco de dados através "mysqli_affected_rows"
+	if(mysqli_affected_rows($conn)){
+		$_SESSION['msg'] = "<div class='alert alert-success' role='alert'>O Evento editado com Sucesso<button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button></div>";
+		header("Location: calendario.php");
+	}else{
+		$_SESSION['msg'] = "<div class='alert alert-danger' role='alert'>Erro ao editar o evento <button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button></div>";
+		header("Location: calendario.php");
+	}
+	
+}else{
+	$_SESSION['msg'] = "<div class='alert alert-danger' role='alert'>Erro ao editar o evento <button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button></div>";
+	header("Location: calendario.php");
+}
