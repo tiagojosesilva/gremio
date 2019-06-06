@@ -1,8 +1,8 @@
 <?php
 session_start();
-include_once("../../php/conn.php");
 
-
+//Incluir conexao com BD
+include_once("conexao.php");
 
 $title = filter_input(INPUT_POST, 'title', FILTER_SANITIZE_STRING);
 $local = filter_input(INPUT_POST, 'local', FILTER_SANITIZE_STRING);
