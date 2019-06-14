@@ -1,8 +1,6 @@
 <?php
 session_start();
-include_once("conexao.php");
-$result_events = "SELECT id, title, local, color, start, end FROM events";
-$resultado_events = mysqli_query($conn, $result_events);
+require_once("banco/selectAllEvents.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -57,7 +55,7 @@ $resultado_events = mysqli_query($conn, $result_events);
 					},
 					events: [
 						<?php
-							while($row_events = mysqli_fetch_array($resultado_events)){
+							while($row_events = $selectAll->fetch(PDO::FETCH_ASSOC)){
 								?>
 								{
 								id: '<?php echo $row_events['id']; ?>',
