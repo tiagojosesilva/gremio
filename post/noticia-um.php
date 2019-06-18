@@ -46,10 +46,12 @@
 
     <!--================ Start banner Area =================-->
     <section class="banner-area relative">
-        <div class="overlay overlay-bg"></div>
+        
+        
+
       <div class="banner-content text-center">
-        <h1>Blog Details</h1>
-        <p>Elementum libero hac leo integer. Risus hac parturient feugiat litora <br /> cursus hendrerit bibendum per </p>
+        <h1>IFB Experiências</h1>
+        <p>Serão selecionadas dez experiências integradoras exitosas <br /> Para várias linhas temáticas </p>
       </div>
     </section>
     <!--================ End banner Area =================-->
@@ -61,17 +63,14 @@
                     <div class="col-lg-12">
        					<div class="main_blog_details">
        						<!-- <img class="img-fluid" src="img/blog/news-blog.jpg" alt=""> -->
-       						<a href="#"><h4>IFB lança chamada sobre relato de  <br /> experiências exitosas da Rede</h4></a>
+       						<a href="#"><h4>IFB lança chamada sobre relato de  <br /> experiências exitosas da Rede Federal</h4></a>
        						<div class="user_details">
-       							<div class="float-left">
-       								<a href="#">Lifestyle</a>
-       								<a href="#">Gadget</a>
-       							</div>
+       							
        							<div class="float-right mt-sm-0 mt-3">
        								<div class="media">
        									<div class="media-body">
-       										<h5>Mark wiens</h5>
-       										<p>12 Dec, 2017 11:21 am</p>
+       										<h5>Grêmio News</h5>
+       										<p>06 Jun, 2019 11:21 am</p>
        									</div>
        									<div class="d-flex">
        										<img src="img/blog/user-img.jpg" alt="">
@@ -79,17 +78,20 @@
        								</div>
        							</div>
        						</div>
-       						<p>ifb seila oq</p>
-       						<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed MCSE training.</p>
-							
-							<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower</p>
-							<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower</p>
-              <blockquote class="blockquote">
-                <p class="mb-0">MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training.</p>
-              </blockquote>
+       						<p>O Instituto Federal de Brasília (IFB) divulga chamada pública para submissão de “Relatos de experiências integradoras exitosas” executadas nos Institutos Federais de Educação, Ciência e Tecnologia, nos Centros Federais de Educação Tecnológica (Cefets) e no Colégio Pedro II, no âmbito de cursos, programas ou projetos.</p>
+							<p>Serão selecionadas dez experiências integradoras exitosas, sendo duas para cada linha temática:</p>
+							<p>1) Integração da comunidade mediante a inclusão de minorias em espaços educativos (pessoas com deficiência, questões de gênero, vulnerabilidade social, raça e diversidade sexual);</p>
+							<p>2) Integração entre componentes curriculares na perspectiva de uma educação profissional articulada com o mundo do trabalho;</p>
+              <p>3) Integração entre saberes da educação profissional com saberes da educação básica;</p>
+              <p>4) Integração entre ensino, pesquisa e extensão; </p>
+              <p>5) Integração de sucesso entre a Escola e outros setores da sociedade (empresas, instituições, ongs, associações) numa proposta de extensão tecnológica ou pesquisa aplicada.</p>
+              <p>Os trabalhos selecionados irão compor o “Caderno de Relatos de Experiências Integradoras Exitosas – 2019” (formato eletrônico) e seus autores poderão apresentá-los durante o ConectaIF 2019, evento previsto para acontecer de 26 a 30 de agosto de 2019, em Brasília.</p>
+              <p>Os formulários estão anexos à chamada pública abaixo e devem ser encaminhados para o e-mail relatos@ifb.edu.br, até o dia 16 de abril de 2019.</p>
+              
+              
       						<div class="news_d_footer flex-column flex-sm-row">
-      							<a href="#"><i class="lnr lnr lnr-heart"></i>pessoas curtiram essa publicação</a>
-      							<a class="justify-content-sm-center ml-sm-auto mt-sm-0 mt-2" href="#"><i class="lnr lnr lnr-bubble"></i>06 Comments</a>
+      							<a href="#"><i class="lnr lnr lnr-heart"></i> 8 pessoas curtiram essa publicação</a>
+      							<a class="justify-content-sm-center ml-sm-auto mt-sm-0 mt-2" href="#"><i class="lnr lnr lnr-bubble"></i>05 Comentários</a>
 
 
       							<div class="news_socail ml-sm-auto mt-sm-0 mt-2">
@@ -108,14 +110,14 @@
                                         <a href="#"><span class="lnr text-white lnr-arrow-left"></span></a>
                                     </div>
                                     <div class="detials">
-                                        <p>post anterior </p>
+                                        <p>Post anterior </p>
                                         <a href="#"><h4></h4></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
                                     <div class="detials">
-                                        <p>próximo post</p>
-                                        <a href="blog-single.php"><h4>Cartridge Is Better</h4></a>
+                                        <p>Próximo post</p>
+                                        <a href="blog-single.php"><h4></h4></a>
                                     </div>
                                     <div class="arrow">
                                         <a href="#"><span class="lnr text-white lnr-arrow-right"></span></a>
@@ -127,7 +129,7 @@
                             </div>
                         </div>
                         <div class="comments-area">
-                            <h4>05 Comments</h4>
+                            <h4>05 Comentários</h4>
                             <div class="comment-list">
                                 <div class="single-comment justify-content-between d-flex">
                                     <div class="user justify-content-between d-flex">
@@ -135,15 +137,15 @@
                                             <img src="img/blog/c1.jpg" alt="">
                                         </div>
                                         <div class="desc">
-                                            <h5><a href="#">Emilly Blunt</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
+                                            <h5><a href="#">Fernanda Silva</a></h5>
+                                            <p class="date">Junho 8, 2019 as 3:12 pm </p>
                                             <p class="comment">
-                                                Never say goodbye till the end comes!
+                                                Nunca diga adeus até o fim chegar!
                                             </p>
                                         </div>
                                     </div>
                                     <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
+                                           <a href="" class="btn-reply text-uppercase">Responder</a> 
                                     </div>
                                 </div>
                             </div>	
@@ -154,15 +156,15 @@
                                             <img src="img/blog/c2.jpg" alt="">
                                         </div>
                                         <div class="desc">
-                                            <h5><a href="#">Elsie Cunningham</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
+                                            <h5><a href="#">Elza Francisca</a></h5>
+                                            <p class="date">Junho 8, 2017 as 3:12 pm </p>
                                             <p class="comment">
-                                                Never say goodbye till the end comes!
+                                                Muito Bom!!
                                             </p>
                                         </div>
                                     </div>
                                     <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
+                                           <a href="" class="btn-reply text-uppercase">Responder</a> 
                                     </div>
                                 </div>
                             </div>	
@@ -173,15 +175,15 @@
                                             <img src="img/blog/c3.jpg" alt="">
                                         </div>
                                         <div class="desc">
-                                            <h5><a href="#">Annie Stephens</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
+                                            <h5><a href="#">Ana Souza</a></h5>
+                                            <p class="date">Junho 9, 2019 as 3:12 pm </p>
                                             <p class="comment">
-                                                Never say goodbye till the end comes!
+                                               Dicas Interessantes!!
                                             </p>
                                         </div>
                                     </div>
                                     <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
+                                           <a href="" class="btn-reply text-uppercase">Responder</a> 
                                     </div>
                                 </div>
                             </div>	
@@ -193,14 +195,14 @@
                                         </div>
                                         <div class="desc">
                                             <h5><a href="#">Maria Luna</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
+                                            <p class="date">Junho 12, 2019 as 1:30 pm </p>
                                             <p class="comment">
-                                                Never say goodbye till the end comes!
+                                                Valeu. Obrigado!
                                             </p>
                                         </div>
                                     </div>
                                     <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
+                                           <a href="" class="btn-reply text-uppercase">Responder</a> 
                                     </div>
                                 </div>
                             </div>	
@@ -211,37 +213,37 @@
                                             <img src="img/blog/c5.jpg" alt="">
                                         </div>
                                         <div class="desc">
-                                            <h5><a href="#">Ina Hayes</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
+                                            <h5><a href="#">Ina Aias</a></h5>
+                                            <p class="date">Junho 13, 2019 as 3:50 pm </p>
                                             <p class="comment">
-                                                Never say goodbye till the end comes!
+                                                Interessante.
                                             </p>
                                         </div>
                                     </div>
                                     <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
+                                           <a href="" class="btn-reply text-uppercase">Responder</a> 
                                     </div>
                                 </div>
                             </div>	                                             				
                         </div>
                         <div class="comment-form">
-                            <h4>Leave a Reply</h4>
+                            <h4>Deixe uma Resposta</h4>
                             <form>
                                 <div class="form-group form-inline">
                                   <div class="form-group col-lg-6 col-md-6 name">
-                                    <input type="text" class="form-control" id="name" placeholder="Enter Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Name'">
+                                    <input type="text" class="form-control" id="name" placeholder="Seu Nome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Seu Nome'">
                                   </div>
                                   <div class="form-group col-lg-6 col-md-6 email">
-                                    <input type="email" class="form-control" id="email" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'">
+                                    <input type="email" class="form-control" id="email" placeholder="Seu email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Seu email'">
                                   </div>										
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'">
+                                    <input type="text" class="form-control" id="subject" placeholder="Assunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Assunto'">
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control mb-10" rows="5" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+                                    <textarea class="form-control mb-10" rows="5" name="message" placeholder="Mensagem" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensagem'" required=""></textarea>
                                 </div>
-                                <a href="#" class="primary-btn submit_btn">Post Comment</a>	
+                                <a href="#" class="primary-btn submit_btn">Postar Comentário</a>	
                             </form>
                         </div>
 					</div>
