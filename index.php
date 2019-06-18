@@ -85,8 +85,8 @@
                     </a>
                   </h5>
                   <div class="amenities-meta mb-10">
-                    <a href="#" class=""><span class="ti-calendar"></span>20th Nov, 2018</a>
-                    <a href="#" class="ml-20"><span class="ti-comment"></span>05</a>
+                    <a href="#" class=""><span class=""></span></a>
+                    <a href="#" class="ml-20"><span class=""></span></a>
                   </div>
                   <p>
                     Serão selecionadas dez experiências exitosas. Envio de inscrições até 16 de abri
@@ -95,12 +95,12 @@
                   <div class="d-flex justify-content-between mt-20">
                     <div>
                       <a href="post/noticia-um.php" class="blog-post-btn">
-                        Ler mais <span class="ti-arrow-right"></span>
+                         <span class=""></span>
                       </a>
                     </div>
                     <div class="category">
-                      <a href="#">
-                        <span class="ti-folder mr-1"></span> Travel
+                      <a href="">
+                        <span class=""></span> 
                       </a>
                     </div>
                   </div>
@@ -117,10 +117,10 @@
                   </h5>
                   <div class="amenities-meta mb-10">
                     <a href="#" class="">
-                      <span class="ti-calendar"></span>20th Nov, 2018
+                      <span class=""></span>
                     </a>
                     <a href="#" class="ml-20">
-                      <span class="ti-comment"></span>05
+                      <span class="-comment"></span>
                     </a>
                   </div>
                   <p>
@@ -130,12 +130,12 @@
                   <div class="d-flex justify-content-between mt-20">
                     <div>
                       <a href="post/blog-single.php" class="blog-post-btn">
-                        Ler mais <span class="ti-arrow-right"></span>
+                         <span class=""></span>
                       </a>
                     </div>
                     <div class="category">
                       <a href="#">
-                        <span class="ti-folder mr-1"></span> Travel
+                        <span class=""></span> 
                       </a>
                     </div>
                   </div>
@@ -152,8 +152,8 @@
                     </a>
                   </h5>
                   <div class="amenities-meta mb-10">
-                    <a href="#" class=""><span class="ti-calendar"></span>20th Nov, 2018</a>
-                    <a href="#" class="ml-20"><span class="ti-comment"></span>05</a>
+                    <a href="#" class=""><span class=""></span></a>
+                    <a href="#" class="ml-20"><span class=""></span></a>
                   </div>
                   <p>
                     Produção traz reflexões sobre as diversas opressões sofridas pelas mulheres negras até hoje
@@ -162,12 +162,12 @@
                   <div class="d-flex justify-content-between mt-20">
                     <div>
                       <a href="post/blog-single.php" class="blog-post-btn">
-                        Ler mais <span class="ti-arrow-right"></span>
+                         <span class=""></span>
                       </a>
                     </div>
                     <div class="category">
                       <a href="#">
-                        <span class="ti-folder mr-1"></span> Travel
+                        <span class=""></span> 
                       </a>
                     </div>
                   </div>
@@ -184,10 +184,10 @@
                   </h5>
                   <div class="amenities-meta mb-10">
                     <a href="#" class="">
-                      <span class="ti-calendar"></span>20th Nov, 2018
+                      <span class=""></span>
                     </a>
                     <a href="#" class="ml-20">
-                      <span class="ti-comment"></span>05
+                      <span class=""></span>
                     </a>
                   </div>
                   <p>
@@ -197,12 +197,12 @@
                   <div class="d-flex justify-content-between mt-20">
                     <div>
                       <a href="post/blog-single.php" class="blog-post-btn">
-                        Ler mais <span class="ti-arrow-right"></span>
+                         <span class=""></span>
                       </a>
                     </div>
                     <div class="category">
                       <a href="#">
-                        <span class="ti-folder mr-1"></span> Travel
+                        <span class=""></span> 
                       </a>
                     </div>
                   </div>
@@ -221,8 +221,8 @@
                     </a>
                   </h5>
                   <div class="amenities-meta mb-10">
-                    <a href="#" class=""><span class="ti-calendar"></span>20th Nov, 2018</a>
-                    <a href="#" class="ml-20"><span class="ti-comment"></span>05</a>
+                    <a href="#" class=""><span class=""></span></a>
+                    <a href="#" class="ml-20"><span class=""></span></a>
                   </div>
                   <p>
                     O prazo para envio dos vídeos vai agora até o dia quatro de abril. Podem participar estudantes regularmente matriculados em cursos técnicos ou superiores de todos os campi e polos de Educação a Distância da instituição
@@ -231,12 +231,12 @@
                   <div class="d-flex justify-content-between mt-20">
                     <div>
                       <a href="post/blog-single.php" class="blog-post-btn">
-                        Ler mais <span class="ti-arrow-right"></span>
+                         <span class=""></span>
                       </a>
                     </div>
                     <div class="category">
                       <a href="#">
-                        <span class="ti-folder mr-1"></span> Travel
+                        <span class=""></span> 
                       </a>
                     </div>
                   </div>
@@ -253,10 +253,10 @@
                   </h5>
                   <div class="amenities-meta mb-10">
                     <a href="#" class="">
-                      <span class="ti-calendar"></span>20th Nov, 2018
+                      <span class=""></span>
                     </a>
                     <a href="#" class="ml-20">
-                      <span class="ti-comment"></span>05
+                      <span class=""></span>
                     </a>
                   </div>
                   <p>
@@ -266,12 +266,12 @@
                   <div class="d-flex justify-content-between mt-20">
                     <div>
                       <a href="post/blog-single.php" class="blog-post-btn">
-                        Ler mais <span class="ti-arrow-right"></span>
+                         <span class=""></span>
                       </a>
                     </div>
                     <div class="category">
                       <a href="#">
-                        <span class="ti-folder mr-1"></span> Travel
+                        <span class=""></span> 
                       </a>
                     </div>
                   </div>
@@ -288,8 +288,8 @@
                     </a>
                   </h5>
                   <div class="amenities-meta mb-10">
-                    <a href="#" class=""><span class="ti-calendar"></span>20th Nov, 2018</a>
-                    <a href="#" class="ml-20"><span class="ti-comment"></span>05</a>
+                    <a href="#" class=""><span class=""></span></a>
+                    <a href="#" class="ml-20"><span class=""></span></a>
                   </div>
                   <p>
                     O Instituto Federal de Pernambuco (IFPE) está promovendo uma campanha de arrecadação de itens de higiene pessoal a serem doados às vítimas do ciclone que atingiu os países africanos Moçambique, Malawi e Zimbábue. 
@@ -298,12 +298,12 @@
                   <div class="d-flex justify-content-between mt-20">
                     <div>
                       <a href="post/blog-single.php" class="blog-post-btn">
-                        Ler mais <span class="ti-arrow-right"></span>
+                         <span class=""></span>
                       </a>
                     </div>
                     <div class="category">
                       <a href="#">
-                        <span class="ti-folder mr-1"></span> Travel
+                        <span class=""></span> 
                       </a>
                     </div>
                   </div>
@@ -320,10 +320,10 @@
                   </h5>
                   <div class="amenities-meta mb-10">
                     <a href="#" class="">
-                      <span class="ti-calendar"></span>20th Nov, 2018
+                      <span class=""></span>
                     </a>
                     <a href="#" class="ml-20">
-                      <span class="ti-comment"></span>05
+                      <span class=""></span>
                     </a>
                   </div>
                   <p>
@@ -333,12 +333,12 @@
                   <div class="d-flex justify-content-between mt-20">
                     <div>
                       <a href="post/blog-single.php" class="blog-post-btn">
-                        Ler mais <span class="ti-arrow-right"></span>
+                         <span class=""></span>
                       </a>
                     </div>
                     <div class="category">
                       <a href="#">
-                        <span class="ti-folder mr-1"></span> Travel
+                        <span class=""></span> 
                       </a>
                     </div>
                   </div>
