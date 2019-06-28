@@ -36,7 +36,7 @@
 
 <body>
   <!--================ Start Header Area =================-->
-  <?php include 'components/header-menu.php' ?>
+  <?php include 'php/view/components/header-menu.php' ?>
   <!--================ End Header Area =================-->
 
   <!--================ Start banner Area =================-->
@@ -81,7 +81,7 @@
                 </div>
                 <div class="amenities-details">
                   <h5>
-                    <a href="post/noticia-um.php">IFB lança chamada sobre relato de experiências exitosas da Rede
+                    <a href="/php/view/noticias/noticia-um.php">IFB lança chamada sobre relato de experiências exitosas da Rede
                     </a>
                   </h5>
                   <div class="amenities-meta mb-10">
