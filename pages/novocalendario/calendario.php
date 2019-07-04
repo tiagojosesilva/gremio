@@ -13,6 +13,10 @@ $resultado_events = mysqli_query($conn, $result_events);
 		<link href='css/fullcalendar.min.css' rel='stylesheet' />
 		<link href='css/fullcalendar.print.min.css' rel='stylesheet' media='print' />
 		<link href='css/personalizado.css' rel='stylesheet' />
+		<link rel="stylesheet" href="css/linearicons.css" />
+
+
+
 		<script src='js/jquery.min.js'></script>
 		<script src='js/bootstrap.min.js'></script>
 		<script src='js/moment.min.js'></script>

@@ -1,7 +1,7 @@
 <?php
 	$servidor = "localhost";
 	$usuario = "root";
-	$senha = "ifpe";
+	$senha = "";
 	$dbname = "gremio";
 	
 	//Criar a conexao

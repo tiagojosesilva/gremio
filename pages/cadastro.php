@@ -73,6 +73,6 @@
     </section>
   <?php include '../components/footer.php' ?>
   <script src="../js/senha.js"></script>
-  
+  <a href="index.php"></a>
 </body>
 </html>
