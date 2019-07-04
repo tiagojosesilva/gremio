@@ -1,6 +1,6 @@
 
 <?php 
-include '../components/header-menu.php' 
+include '../php/view/components/header-menu.php' 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -70,5 +70,5 @@ include '../components/header-menu.php'
         </div>
       </div>
       <?php 
-          include '../components/footer.php' 
+          include '../php/view/components/footer.php' 
       ?>
