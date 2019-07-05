@@ -6,11 +6,14 @@
 São notícias atualizadas do grêmio estudantil e do IFPE Campus Igarassu, ao todo conta como palestras, avisos entre outros.
 ### Galeria de Fotos
 É uma área voltada para os alunos, esta parte tem as fotos dos eventos que acontecem no campus.
-## Calendário
+### Calendário
 O usuário pode adicionar um novo evento escolhendo data, hora, local. E também pode alterar o mesmo.
-
 ### Instalação
-Entrar no github, depois abrir o terminal e utilizar o comando git clone com esse link https://github.com/tiagojosesilva/gremio.git.
+1- Entrar no github, depois abrir o terminal e utilizar o comando git clone com esse link https://github.com/tiagojosesilva/gremio.git. 
+
+2- Em seguida 
+
+3- 
 
 ### Autores
 Alunos: Alex, Ana Beatriz, Guilherme Gomes, Lucas Felinto, Tiago José, Vinícius Augusto.
