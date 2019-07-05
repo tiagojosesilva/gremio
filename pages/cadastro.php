@@ -22,7 +22,7 @@
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 </head>
 <body>
-  <?php include '../components/header-menu.php' ?>
+  <?php include '../php/view/components/header-menu.php' ?>
   <section class="container my-5 cadastro" >
       <div class="my-5 text-center">
         <span class="h6 d-block">Crie sua conta</span>
@@ -71,7 +71,7 @@
         </div>
       </div>
     </section>
-  <?php include '../components/footer.php' ?>
+  <?php include '../php/view/components/footer.php' ?>
   <script src="../js/senha.js"></script>
   <a href="index.php"></a>
 </body>

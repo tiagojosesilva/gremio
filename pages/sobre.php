@@ -22,7 +22,7 @@
 
 <body>
 
-  <?php include '../components/header-menu.php' ?>
+  <?php include '../php/view/components/header-menu.php' ?>
 
   <div class="info">
     <p>O grêmio estudantil é o orgão de representatividade máxima do estudante, que tem como objetivo esclarecer e
@@ -283,7 +283,7 @@
         </a>
       </div> -->
 
-      <?php include '../components/footer.php' ?>
+      <?php include '../php/view/components/footer.php' ?>
 
       <script src="js/vendor/jquery-2.2.4.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"

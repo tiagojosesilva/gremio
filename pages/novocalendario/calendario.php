@@ -8,6 +8,7 @@ $resultado_events = mysqli_query($conn, $result_events);
 <html lang="pt-br">
 	<head>
 		<meta charset='utf-8' />
+
 		<title>Agenda</title>
 		<link href='css/bootstrap.min.css' rel='stylesheet'>
 		<link href='css/fullcalendar.min.css' rel='stylesheet' />
@@ -281,5 +282,6 @@ $resultado_events = mysqli_query($conn, $result_events);
 				$('.form').slideToggle();
 			});
 		</script>
+		
 	</body>
 </html>

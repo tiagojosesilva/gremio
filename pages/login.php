@@ -32,7 +32,7 @@ if (isset($_SESSION['id'])) {
 </head>
 
 <body>
-  <?php include '../components/header-menu.php' ?>
+  <?php include '../php/view/components/header-menu.php' ?>
 
   <section class="container my-5" ">
     <div class="d-flex justify-content-center">
@@ -70,7 +70,7 @@ if (isset($_SESSION['id'])) {
     </div>
   </section>
 
-  <?php include '../components/footer.php' ?>
+  <?php include '../php/view/components/footer.php' ?>
   <?php
   //unset($_SESSION['erroLogin']);
   ?>
