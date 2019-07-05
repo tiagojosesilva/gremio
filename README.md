@@ -14,4 +14,7 @@ Entrar no github, depois abrir o terminal e utilizar o comando git clone com ess
 
 ### Autores
 Alunos: Alex, Ana Beatriz, Guilherme Gomes, Lucas Felinto, Tiago José, Vinícius Augusto.
+
 Professor: Alexandre Strapação.
+
+Turma/Turno: IPI 2 Período/Manhã.
