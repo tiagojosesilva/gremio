@@ -11,7 +11,7 @@ O usuário pode adicionar um novo evento escolhendo data, hora e local, tendo co
 ## Instalação:
 1- Entrar no github, através do link https://github.com/tiagojosesilva/gremio.git, clique no botão esverdeado Clone or Download. Logo depois copie o link.
 
-2- Em seguida entre no terminal, escolha uma pasta para abrigar o projeto, como por exemplo: Área de Trabalho, logo após dê o comado cd e efetive o comando git clone somado o link que foi adquerido no botão com tom verde. Desta forma: git clone https://github.com/tiagojosesilva/gremio.git. Pronto! Você já tem o projeto na sua máquina.
+2- Em seguida entre no terminal, escolha uma pasta para abrigar o projeto, como por exemplo: Área de Trabalho, logo após dê o comado cd e efetive o comando git clone somado o link que foi adquirido no botão com tom verde. Desta forma: git clone https://github.com/tiagojosesilva/gremio.git. Pronto! Você já tem o projeto na sua máquina.
 
 3- Já dentro da pasta do projeto, execute o comando make conf (só funciona em sistemas linux), que irá fazer toda a configuração necessária para o projeto funcionar na sua máquina.
 
