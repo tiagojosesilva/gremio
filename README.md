@@ -5,7 +5,7 @@
 ### Notícias sobre o grêmio 
 São notícias atualizadas do grêmio estudantil e do IFPE Campus Igarassu, ao todo conta com palestras, avisos, eventos, entre outros.
 ### Galeria de Fotos
-É uma área voltada para os alunos, esta parte tem as fotos dos eventos que acontecem no campus.
+É uma área voltada para os alunos, contendo fotos dos eventose das atividades que acontecem no campus.
 ### Calendário
 O usuário pode adicionar um novo evento escolhendo data, hora, local. E também pode alterar o mesmo.
 ## Instalação:
