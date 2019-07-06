@@ -9,9 +9,9 @@ São notícias atualizadas do grêmio estudantil e do IFPE Campus Igarassu, ao t
 ### Calendário
 O usuário pode adicionar um novo evento escolhendo data, hora, local. E também pode alterar o mesmo.
 ## Instalação:
-1- Entrar no github, depois abrir o terminal e utilizar o comando git clone com esse link https://github.com/tiagojosesilva/gremio.git. 
+1- Entrar no github, através do link https://github.com/tiagojosesilva/gremio.git, clique lique no botão esverdeado “Clone or Download”.
 
-2- Em seguida 
+2- Em seguida entre no terminal, escolha uma pasta para abrigar o projeto, como por exemplo – Downloads –, com mande o comado cd e efetive o comando git clone somado o link que foi adquerido no botão com tom verde. Desta forma: git clone https://github.com/tiagojosesilva/gremio.git. Pronto! Você já tem o projeto na sua máquina.
 
 3- 
 
