@@ -20,10 +20,7 @@ O usuário pode adicionar um novo evento escolhendo data, hora e local, tendo co
 5- No navegador (internet) digite localhost:8000.
 
 6- Agora é só utilizar nosso sistema.
-
-
-
-### Autores
+## Autores
 Alunos: Alex, Ana Beatriz, Guilherme Gomes, Lucas Felinto, Tiago José, Vinícius Augusto.
 
 Professor: Alexandre Strapação.
