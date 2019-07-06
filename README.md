@@ -15,7 +15,7 @@ O usuário pode adicionar um novo evento escolhendo data, hora e local, tendo co
 
 3- Já dentro da pasta do projeto, execute o comando make conf (só funciona em sistemas linux), que irá fazer toda a configuração necessária para o projeto funcionar na sua máquina.
 
-4- No terminal da pasta execulte o comando: php -S localhost:8000, em seguida aperte enter.
+4- No terminal da pasta execute o comando: php -S localhost:8000, em seguida aperte enter.
 
 5- No navegador (internet) digite localhost:8000.
 
