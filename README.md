@@ -22,6 +22,8 @@ O usuário pode adicionar um novo evento escolhendo data, hora e local, tendo co
 6- No navegador (internet) digite localhost:8000.
 
 7- Agora é só utilizar nosso sistema.
+
+Se preferir, entre diretamente no site do projeto pelo link: https://gremioifpe.000webhostapp.com/
 ## Autores
 Alunos: Alex, Ana Beatriz, Guilherme Gomes, Lucas Felinto, Tiago José, Vinícius Augusto.
 
