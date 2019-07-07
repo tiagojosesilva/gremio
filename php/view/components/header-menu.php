@@ -20,7 +20,7 @@ if (!isset($_SESSION)) {
             </a>
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../pages/sobre.php">Sobre</a>
+              <a class="dropdown-item" href="../php/view/sobre.php">Sobre</a>
               <a class="dropdown-item" href="../pages/gallery.php">Galeria</a>
               <a class="dropdown-item" href="../pages/novocalendario/calendario.php">Calendario</a>
 
